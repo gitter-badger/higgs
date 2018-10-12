@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.controller.v2.database.topn;
 
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.topn.DatabaseTopNService;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.topn.DatabaseTopNService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.ConstraintValidator;

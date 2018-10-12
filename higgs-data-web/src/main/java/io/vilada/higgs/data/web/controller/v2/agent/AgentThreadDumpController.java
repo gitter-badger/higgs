@@ -27,11 +27,11 @@ import io.vilada.higgs.data.web.vo.in.v2.agent.threaddump.AgentThreadDumpInBaseV
 import io.vilada.higgs.data.web.vo.in.v2.agent.threaddump.AgentThreadDumpUPDInBaseVO;
 import io.vilada.higgs.data.web.vo.out.management.AgentThreadDumpOutVO;
 import io.vilada.higgs.data.web.vo.out.management.ThreadDumpOutVO;
-import io.vilada.higgs.data.service.bo.in.PageData;
-import io.vilada.higgs.data.service.elasticsearch.index.thread.AgentThreadDumpBatch;
-import io.vilada.higgs.data.service.elasticsearch.index.thread.ThreadDump;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
-import io.vilada.higgs.data.service.service.AgentThreadDumpComposeService;
+import io.vilada.higgs.data.web.service.bo.in.PageData;
+import io.vilada.higgs.data.web.service.elasticsearch.index.thread.AgentThreadDumpBatch;
+import io.vilada.higgs.data.web.service.elasticsearch.index.thread.ThreadDump;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.service.AgentThreadDumpComposeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

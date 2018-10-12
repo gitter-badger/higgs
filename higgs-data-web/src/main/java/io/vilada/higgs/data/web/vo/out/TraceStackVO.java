@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo.out;
 
-import io.vilada.higgs.data.service.util.tree.IChildrenType;
+import io.vilada.higgs.data.web.service.util.tree.IChildrenType;
 import lombok.Data;
 
 import java.util.ArrayList;

@@ -19,12 +19,12 @@ package io.vilada.higgs.data.web.controller.v2.remote;
 import io.vilada.higgs.data.web.controller.v2.util.ParamValidator;
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
-import io.vilada.higgs.data.service.bo.in.v2.ConditionInBO;
-import io.vilada.higgs.data.service.bo.in.v2.remote.RemoteErrorCountSummaryInBO;
-import io.vilada.higgs.data.service.bo.out.v2.remote.RemoteErrorCountByTypeOutBO;
-import io.vilada.higgs.data.service.bo.out.v2.remote.RemoteErrorCountByUriOutBO;
-import io.vilada.higgs.data.service.bo.out.v2.remote.RemoteErrorCountSummaryOutBO;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.remote.RemoteErrorSummaryService;
+import io.vilada.higgs.data.web.service.bo.in.v2.ConditionInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.remote.RemoteErrorCountSummaryInBO;
+import io.vilada.higgs.data.web.service.bo.out.v2.remote.RemoteErrorCountByTypeOutBO;
+import io.vilada.higgs.data.web.service.bo.out.v2.remote.RemoteErrorCountByUriOutBO;
+import io.vilada.higgs.data.web.service.bo.out.v2.remote.RemoteErrorCountSummaryOutBO;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.remote.RemoteErrorSummaryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,8 +35,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import static io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum.COMMON_PARAMETER_IS_NULL;
-import static io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum.TIMERANGE_INVALID;
+import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.COMMON_PARAMETER_IS_NULL;
+import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.TIMERANGE_INVALID;
 
 /**
  * ErrorSummariesController

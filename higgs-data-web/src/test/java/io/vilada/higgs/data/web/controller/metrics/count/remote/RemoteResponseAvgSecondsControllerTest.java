@@ -32,7 +32,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import io.vilada.higgs.data.web.DataWebSiteApplication;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 
 /**
  * 

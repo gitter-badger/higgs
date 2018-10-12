@@ -27,8 +27,8 @@ import org.springframework.stereotype.Component;
 
 import com.google.common.base.Strings;
 
-import io.vilada.higgs.data.service.constants.AgentManagementConstants;
-import io.vilada.higgs.data.service.util.ConfigurationUtils;
+import io.vilada.higgs.data.web.service.constants.AgentManagementConstants;
+import io.vilada.higgs.data.web.service.util.ConfigurationUtils;
 import lombok.extern.slf4j.Slf4j;
 
 /**

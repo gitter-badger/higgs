@@ -17,8 +17,8 @@
 package io.vilada.higgs.data.web.controller.v2.database.topn;
 
 import io.vilada.higgs.common.util.CollectionUtils;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutBO;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutUnit;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutBO;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutUnit;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;

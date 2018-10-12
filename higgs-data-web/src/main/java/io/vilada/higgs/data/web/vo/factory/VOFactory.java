@@ -19,7 +19,7 @@ package io.vilada.higgs.data.web.vo.factory;
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.TimeSeriesVO;
 import io.vilada.higgs.data.web.vo.in.TimeInVO;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 
 /**
  * Description

@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo.in.transaction;
 
-import io.vilada.higgs.data.service.bo.in.TimeSection;
+import io.vilada.higgs.data.web.service.bo.in.TimeSection;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

@@ -20,7 +20,7 @@ import io.vilada.higgs.data.meta.dao.v2.po.DataConfiguration;
 import io.vilada.higgs.data.meta.service.v2.AgentService;
 import io.vilada.higgs.data.meta.service.v2.DataConfigurationService;
 import io.vilada.higgs.data.web.filter.CrossDomainFilter;
-import io.vilada.higgs.data.service.service.AgentThreadDumpComposeService;
+import io.vilada.higgs.data.web.service.service.AgentThreadDumpComposeService;
 import com.carrotsearch.hppc.cursors.ObjectObjectCursor;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.admin.indices.alias.get.GetAliasesRequest;

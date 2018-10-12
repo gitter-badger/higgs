@@ -16,8 +16,8 @@
 
 package io.vilada.higgs.data.web.vo.in;
 
-import io.vilada.higgs.data.service.bo.in.v2.Page;
-import io.vilada.higgs.data.service.bo.in.v2.Sort;
+import io.vilada.higgs.data.web.service.bo.in.v2.Page;
+import io.vilada.higgs.data.web.service.bo.in.v2.Sort;
 import lombok.Data;
 
 import javax.validation.Valid;

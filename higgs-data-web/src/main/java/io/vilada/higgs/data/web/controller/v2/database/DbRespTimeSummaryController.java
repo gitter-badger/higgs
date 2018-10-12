@@ -27,11 +27,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
-import io.vilada.higgs.data.service.bo.in.v2.ConditionInBO;
-import io.vilada.higgs.data.service.bo.in.v2.database.DatabaseRespTimeSummaryInBO;
-import io.vilada.higgs.data.service.bo.out.v2.database.DatabaseRespTimeSummaryOutBO;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.DatabaseRespTimeSummaryService;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.bo.in.v2.ConditionInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.database.DatabaseRespTimeSummaryInBO;
+import io.vilada.higgs.data.web.service.bo.out.v2.database.DatabaseRespTimeSummaryOutBO;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.DatabaseRespTimeSummaryService;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import lombok.extern.slf4j.Slf4j;
 
 /**

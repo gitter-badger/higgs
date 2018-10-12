@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo.in.error;
 
-import io.vilada.higgs.data.service.bo.in.v2.error.FilteredErrorInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.error.FilteredErrorInBO;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

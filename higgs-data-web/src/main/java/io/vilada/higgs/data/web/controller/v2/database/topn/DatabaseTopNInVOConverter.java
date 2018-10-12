@@ -16,8 +16,8 @@
 
 package io.vilada.higgs.data.web.controller.v2.database.topn;
 
-import io.vilada.higgs.data.service.bo.in.v2.Sort;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.topn.DatabaseTopNInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.Sort;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.topn.DatabaseTopNInBO;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Service;
 

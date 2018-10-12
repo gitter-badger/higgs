@@ -16,14 +16,14 @@
 
 package io.vilada.higgs.data.web.vo.in.v2.abnormal;
 
-import io.vilada.higgs.data.service.bo.in.v2.common.DurationInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.common.DurationInBO;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.Pattern;
 
-import static io.vilada.higgs.data.service.constants.AgentConfigConstants.HIGGS_AGENT_NAME_RULE;
+import static io.vilada.higgs.data.web.service.constants.AgentConfigConstants.HIGGS_AGENT_NAME_RULE;
 
 /**
  * Created by leigengxin on 2018-1-26.

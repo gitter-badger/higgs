@@ -30,10 +30,10 @@ import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
 import io.vilada.higgs.data.web.vo.in.BaseInVO;
 import io.vilada.higgs.data.web.vo.in.database.DataBaseTrendInVO;
-import io.vilada.higgs.data.service.bo.in.v2.database.DataBaseTrendInBO;
-import io.vilada.higgs.data.service.bo.out.v2.database.DatabaseTrendOutBO;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.DataBaseTrendService;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.bo.in.v2.database.DataBaseTrendInBO;
+import io.vilada.higgs.data.web.service.bo.out.v2.database.DatabaseTrendOutBO;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.DataBaseTrendService;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 

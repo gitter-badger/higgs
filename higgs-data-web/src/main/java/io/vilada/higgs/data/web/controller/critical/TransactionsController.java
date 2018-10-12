@@ -16,9 +16,9 @@
 
 package io.vilada.higgs.data.web.controller.critical;
 
-import io.vilada.higgs.data.service.elasticsearch.index.critical.Transactions;
-import io.vilada.higgs.data.service.elasticsearch.service.critical.TransactionsService;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.elasticsearch.index.critical.Transactions;
+import io.vilada.higgs.data.web.service.elasticsearch.service.critical.TransactionsService;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
 import io.vilada.higgs.data.web.vo.in.critical.TransactionsVO;

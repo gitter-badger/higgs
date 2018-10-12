@@ -16,8 +16,8 @@
 
 package io.vilada.higgs.data.web.controller.v2.database.topn;
 
-import io.vilada.higgs.data.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutUnit;
-import io.vilada.higgs.data.service.util.CalculationUtils;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.database.topn.DatabaseTopNOutUnit;
+import io.vilada.higgs.data.web.service.util.CalculationUtils;
 import lombok.Data;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Service;

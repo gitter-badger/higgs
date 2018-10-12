@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo;
 
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import lombok.Data;
 
 import java.io.Serializable;

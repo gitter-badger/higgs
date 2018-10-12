@@ -23,16 +23,16 @@ import io.vilada.higgs.data.web.vo.in.BaseInVO;
 import io.vilada.higgs.data.web.vo.in.dashboard.ApplicationDashboardInVO;
 import io.vilada.higgs.data.web.vo.in.dashboard.ApplicationDashboardIndicatorInVO;
 import io.vilada.higgs.data.web.vo.in.dashboard.TopologyConditionInVo;
-import io.vilada.higgs.data.service.bo.in.dashboard.ApplicationDashBoardInBO;
-import io.vilada.higgs.data.service.bo.in.dashboard.InternalHealthParamBO;
-import io.vilada.higgs.data.service.bo.in.v2.topology.TopologyInBO;
-import io.vilada.higgs.data.service.bo.out.dashboard.DashboardIndicator;
-import io.vilada.higgs.data.service.bo.out.dashboard.ErrorCountTrend;
-import io.vilada.higgs.data.service.bo.out.dashboard.ResponseTimeTrend;
-import io.vilada.higgs.data.service.bo.out.dashboard.ThroughputTrend;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.topology.TopologyV2Service;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.dashboard.ApplicationDashBoardService;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.bo.in.dashboard.ApplicationDashBoardInBO;
+import io.vilada.higgs.data.web.service.bo.in.dashboard.InternalHealthParamBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.topology.TopologyInBO;
+import io.vilada.higgs.data.web.service.bo.out.dashboard.DashboardIndicator;
+import io.vilada.higgs.data.web.service.bo.out.dashboard.ErrorCountTrend;
+import io.vilada.higgs.data.web.service.bo.out.dashboard.ResponseTimeTrend;
+import io.vilada.higgs.data.web.service.bo.out.dashboard.ThroughputTrend;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.topology.TopologyV2Service;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.dashboard.ApplicationDashBoardService;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
@@ -46,7 +46,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
-import static io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum.TIMERANGE_INVALID;
+import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.TIMERANGE_INVALID;
 
 /**
  * Description

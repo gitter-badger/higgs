@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.controller.v2.web;
 
-import io.vilada.higgs.data.service.bo.in.SearchCondition;
+import io.vilada.higgs.data.web.service.bo.in.SearchCondition;
 import io.vilada.higgs.data.web.controller.v2.util.ParamValidator;
 import io.vilada.higgs.data.web.util.UnitEnum;
 import io.vilada.higgs.data.web.vo.BaseOutVO;
@@ -24,8 +24,8 @@ import io.vilada.higgs.data.web.vo.enums.BrowserEnum;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
 import io.vilada.higgs.data.web.vo.in.TimeInVO;
 import io.vilada.higgs.data.web.vo.out.LineOut;
-import io.vilada.higgs.data.service.elasticsearch.service.web.WebAgentAjaxService;
-import io.vilada.higgs.data.service.elasticsearch.service.web.WebAgentLoadService;
+import io.vilada.higgs.data.web.service.elasticsearch.service.web.WebAgentAjaxService;
+import io.vilada.higgs.data.web.service.elasticsearch.service.web.WebAgentLoadService;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -36,7 +36,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum.CONDITION_INVALID;
+import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.CONDITION_INVALID;
 
 @RestController
 @RequestMapping(value = "/server/v2/web", produces = { "application/json;charset=UTF-8" })

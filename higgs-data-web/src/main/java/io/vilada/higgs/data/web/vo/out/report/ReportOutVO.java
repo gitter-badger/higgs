@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo.out.report;
 
-import io.vilada.higgs.data.service.elasticsearch.dto.report.Report;
+import io.vilada.higgs.data.web.service.elasticsearch.dto.report.Report;
 import lombok.Data;
 
 import java.util.List;

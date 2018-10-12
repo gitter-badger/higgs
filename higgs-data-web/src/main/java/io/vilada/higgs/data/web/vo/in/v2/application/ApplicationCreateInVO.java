@@ -16,7 +16,7 @@
 
 package io.vilada.higgs.data.web.vo.in.v2.application;
 
-import static io.vilada.higgs.data.service.constants.AgentConfigConstants.HIGGS_AGENT_NAME_RULE;
+import static io.vilada.higgs.data.web.service.constants.AgentConfigConstants.HIGGS_AGENT_NAME_RULE;
 
 import javax.validation.constraints.Pattern;
 

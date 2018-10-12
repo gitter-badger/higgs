@@ -17,7 +17,7 @@
 package io.vilada.higgs.data.web.vo.in.remote;
 
 
-import io.vilada.higgs.data.service.bo.in.v2.remote.RemoteCallListInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.remote.RemoteCallListInBO;
 
 /**
  * @author ethan

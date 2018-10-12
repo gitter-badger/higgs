@@ -19,12 +19,12 @@ package io.vilada.higgs.data.web.controller.v2.transaction;
 
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
-import io.vilada.higgs.data.service.bo.in.v2.transaction.PagedTransactionInBO;
-import io.vilada.higgs.data.service.bo.in.v2.transaction.SectionsTransactionInBO;
-import io.vilada.higgs.data.service.bo.out.SectionsTransactionOutBO;
-import io.vilada.higgs.data.service.bo.out.TransSnapListOutBO;
-import io.vilada.higgs.data.service.elasticsearch.service.v2.transaction.TransactionSnapService;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.bo.in.v2.transaction.PagedTransactionInBO;
+import io.vilada.higgs.data.web.service.bo.in.v2.transaction.SectionsTransactionInBO;
+import io.vilada.higgs.data.web.service.bo.out.SectionsTransactionOutBO;
+import io.vilada.higgs.data.web.service.bo.out.TransSnapListOutBO;
+import io.vilada.higgs.data.web.service.elasticsearch.service.v2.transaction.TransactionSnapService;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -21,8 +21,8 @@ import java.util.List;
 import io.vilada.higgs.data.web.vo.BaseOutVO;
 import io.vilada.higgs.data.web.vo.factory.VOFactory;
 import io.vilada.higgs.data.web.vo.in.transaction.FilteredTransactionInVO;
-import io.vilada.higgs.data.service.enums.DataCommonVOMessageEnum;
-import io.vilada.higgs.data.service.enums.SingleTransHealthStatusEnum;
+import io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum;
+import io.vilada.higgs.data.web.service.enums.SingleTransHealthStatusEnum;
 
 /**
  * @author yawei

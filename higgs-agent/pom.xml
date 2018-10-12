@@ -31,6 +31,7 @@
         <module>higgs-agent-common</module>
         <module>higgs-agent-bootstrap</module>
         <module>higgs-agent-engine</module>
+        <module>higgs-agent-plugin</module>
         <module>higgs-agent-distribution</module>
     </modules>
 
