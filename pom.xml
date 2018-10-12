@@ -33,10 +33,10 @@
         <module>higgs-agent</module>
         <module>higgs-serialization</module>
         <module>higgs-collector</module>
-        <module>higgs-data-meta</module>
         <module>higgs-data-common</module>
+        <module>higgs-data-meta</module>
+        <module>higgs-data-process</module>
         <module>higgs-data-web</module>
-        <module>higgs-data-job</module>
     </modules>
 
     <properties>
