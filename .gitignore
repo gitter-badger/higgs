@@ -28,5 +28,14 @@ hs_err_pid*
 *.iml
 *.iws
 
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# system files
+.DS_Store
+Thumbs.db
+
 # maven files
 .target/
