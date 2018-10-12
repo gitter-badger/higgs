@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.instrument;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface MethodDescriptor {
 

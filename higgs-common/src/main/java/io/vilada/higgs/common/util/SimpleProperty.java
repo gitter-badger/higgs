@@ -17,7 +17,7 @@
 package io.vilada.higgs.common.util;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface SimpleProperty {
     void setProperty(String key, String value);

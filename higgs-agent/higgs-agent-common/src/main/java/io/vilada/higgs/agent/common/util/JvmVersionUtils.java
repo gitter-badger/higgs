@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.util;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class JvmVersionUtils {
 

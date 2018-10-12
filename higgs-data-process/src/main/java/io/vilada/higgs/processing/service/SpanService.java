@@ -63,7 +63,7 @@ import static io.vilada.higgs.data.common.constant.ESIndexConstants.*;
 import static io.vilada.higgs.processing.FlinkJobConstants.*;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 @Service

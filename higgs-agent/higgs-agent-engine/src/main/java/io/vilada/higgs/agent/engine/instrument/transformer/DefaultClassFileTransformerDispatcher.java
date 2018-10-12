@@ -30,7 +30,7 @@ import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultClassFileTransformerDispatcher implements ClassFileTransformerDispatcher {
     private static final Logger log = LoggerFactory.getLogger(DefaultClassFileTransformerDispatcher.class);

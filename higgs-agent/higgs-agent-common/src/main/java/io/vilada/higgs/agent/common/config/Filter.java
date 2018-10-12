@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.config;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Filter<T> {
     boolean FILTERED = true;

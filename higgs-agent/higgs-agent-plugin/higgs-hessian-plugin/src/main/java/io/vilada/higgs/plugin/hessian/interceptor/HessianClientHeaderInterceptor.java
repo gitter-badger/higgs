@@ -26,7 +26,7 @@ import io.vilada.higgs.common.trace.ComponentEnum;
 import io.vilada.higgs.plugin.hessian.HessianProxyAccessor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HessianClientHeaderInterceptor extends AbstractNonSpanAroundInterceptor {
    

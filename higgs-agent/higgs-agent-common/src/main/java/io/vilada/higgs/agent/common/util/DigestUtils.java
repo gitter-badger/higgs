@@ -24,7 +24,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DigestUtils {
 

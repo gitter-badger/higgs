@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.common.instrument.InstrumentException;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface InstrumentEngine {
 

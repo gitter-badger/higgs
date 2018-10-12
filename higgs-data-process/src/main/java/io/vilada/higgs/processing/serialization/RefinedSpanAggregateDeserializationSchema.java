@@ -25,7 +25,7 @@ import org.apache.flink.streaming.util.serialization.KeyedDeserializationSchema;
 import java.io.IOException;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class RefinedSpanAggregateDeserializationSchema implements KeyedDeserializationSchema<AggregateInstance> {

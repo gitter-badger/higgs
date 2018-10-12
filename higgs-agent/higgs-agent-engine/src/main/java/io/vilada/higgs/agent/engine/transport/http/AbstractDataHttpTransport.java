@@ -63,7 +63,7 @@ import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.CONTENT_LENGT
 import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.HOST;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractDataHttpTransport implements DataTransport {
 

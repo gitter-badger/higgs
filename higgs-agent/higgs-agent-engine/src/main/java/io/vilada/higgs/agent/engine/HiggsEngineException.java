@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsEngineException extends RuntimeException {
     public HiggsEngineException() {

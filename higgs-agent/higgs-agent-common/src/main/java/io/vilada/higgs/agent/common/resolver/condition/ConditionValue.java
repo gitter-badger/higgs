@@ -18,7 +18,7 @@
 package io.vilada.higgs.agent.common.resolver.condition;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface ConditionValue<V> {
 

@@ -29,7 +29,7 @@ import io.vilada.higgs.agent.engine.instrument.transformer.DefaultHiggsClassFile
 import java.io.InputStream;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class PluginInstrumentContext implements InstrumentContext {
 

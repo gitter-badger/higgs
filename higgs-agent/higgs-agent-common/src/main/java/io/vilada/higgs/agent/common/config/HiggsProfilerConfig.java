@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsProfilerConfig implements ProfilerConfig {
 

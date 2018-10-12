@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.instrument.classloading;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface ClassNameFilter {
 

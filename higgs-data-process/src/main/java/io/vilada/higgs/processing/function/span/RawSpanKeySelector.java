@@ -20,7 +20,7 @@ import io.vilada.higgs.data.common.document.RefinedSpan;
 import org.apache.flink.api.java.functions.KeySelector;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RawSpanKeySelector implements KeySelector<RefinedSpan, String> {
     @Override

@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMMethodInsnNodeRemapper {
     private List<Filter> filters = new ArrayList<Filter>();

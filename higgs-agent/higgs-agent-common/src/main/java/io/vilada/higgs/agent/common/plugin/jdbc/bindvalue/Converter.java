@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.plugin.jdbc.bindvalue;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Converter {
     String convert(Object[] args);

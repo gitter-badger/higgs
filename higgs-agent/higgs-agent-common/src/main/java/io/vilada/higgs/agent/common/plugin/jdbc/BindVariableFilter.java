@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.plugin.jdbc;
 import java.lang.reflect.Method;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface BindVariableFilter {
     boolean filter(Method method);

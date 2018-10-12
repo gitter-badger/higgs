@@ -31,7 +31,7 @@ import java.util.jar.Manifest;
 
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentDirGenerator {
 

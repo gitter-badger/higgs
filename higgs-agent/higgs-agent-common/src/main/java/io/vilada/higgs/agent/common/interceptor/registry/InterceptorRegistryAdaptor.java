@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.interceptor.registry;
 import io.vilada.higgs.agent.common.interceptor.Interceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface InterceptorRegistryAdaptor {
 

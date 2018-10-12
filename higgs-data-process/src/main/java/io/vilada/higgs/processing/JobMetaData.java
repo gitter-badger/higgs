@@ -21,7 +21,7 @@ import lombok.Setter;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Getter
 @Setter

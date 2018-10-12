@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.monitor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentMonitor {
 

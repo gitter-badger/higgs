@@ -23,7 +23,7 @@ import java.lang.instrument.UnmodifiableClassException;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DummyInstrumentation implements Instrumentation {
 

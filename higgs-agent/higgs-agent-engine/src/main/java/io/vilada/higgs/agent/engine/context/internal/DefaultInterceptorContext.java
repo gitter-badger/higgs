@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.context.*;
 import io.vilada.higgs.agent.common.instrument.MethodDescriptor;
 
 /**
- * @author ethanlee
+ * @author mjolnirlee
  */
 public class DefaultInterceptorContext implements InterceptorContext {
 

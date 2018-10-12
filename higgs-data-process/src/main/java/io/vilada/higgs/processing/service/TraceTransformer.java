@@ -44,7 +44,7 @@ import static io.vilada.higgs.common.trace.SpanConstant.SPAN_CONTEXT_REFERER_DEL
 import static io.vilada.higgs.common.trace.SpanConstant.SPAN_TAG_PEER_ADDRESS;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TraceTransformer {
 

@@ -19,7 +19,7 @@ package io.vilada.higgs.common.util;
 import java.util.Collection;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class CollectionUtils {
 

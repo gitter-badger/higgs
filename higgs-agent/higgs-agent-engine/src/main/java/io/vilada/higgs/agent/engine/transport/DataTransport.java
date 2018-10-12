@@ -24,7 +24,7 @@ import org.jboss.netty.channel.ChannelFuture;
 import org.jboss.netty.channel.ChannelFutureListener;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface DataTransport {
 

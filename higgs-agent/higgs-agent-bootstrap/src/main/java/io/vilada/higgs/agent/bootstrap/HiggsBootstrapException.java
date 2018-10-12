@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.bootstrap;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsBootstrapException extends RuntimeException {
 

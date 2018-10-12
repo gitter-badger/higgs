@@ -17,7 +17,7 @@
 package io.vilada.higgs.common.util.logger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface CommonLogger {
 

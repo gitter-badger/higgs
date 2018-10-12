@@ -20,7 +20,7 @@ package io.vilada.higgs.agent.common.plugin.jdbc.bindvalue;
 import io.vilada.higgs.agent.common.util.StringUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SimpleTypeConverter implements Converter {
 

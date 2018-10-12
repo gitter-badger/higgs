@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.trace;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum  HttpHeader {
 

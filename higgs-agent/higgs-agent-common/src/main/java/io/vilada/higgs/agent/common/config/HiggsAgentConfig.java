@@ -29,7 +29,7 @@ import java.util.Properties;
 import java.util.UUID;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsAgentConfig {
 

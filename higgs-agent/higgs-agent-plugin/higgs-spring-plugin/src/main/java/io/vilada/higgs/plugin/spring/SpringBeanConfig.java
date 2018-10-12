@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SpringBeanConfig {
     public static final String SPRING_BEANS_ANNOTATION = "higgs.spring.beans.annotation";

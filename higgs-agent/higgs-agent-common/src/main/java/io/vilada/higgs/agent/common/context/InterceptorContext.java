@@ -20,7 +20,7 @@ import io.vilada.higgs.agent.common.config.ProfilerConfig;
 import io.vilada.higgs.agent.common.instrument.MethodDescriptor;
 
 /**
- * @author ethanlee
+ * @author mjolnir
  */
 public interface InterceptorContext {
 

@@ -22,7 +22,7 @@ import lombok.Data;
 import org.apache.thrift.TBase;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Data
 public class HandlerResultWrapper {

@@ -24,7 +24,7 @@ import java.net.URL;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class PluginConfig {
 

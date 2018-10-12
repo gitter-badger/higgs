@@ -31,7 +31,7 @@ import io.vilada.higgs.plugin.httpclient.interceptor.RequestExecuteInterceptor;
 import io.vilada.higgs.plugin.httpclient.interceptor.RequestFutureInterceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public class HttpClientPlugin implements ProfilerPlugin {

@@ -17,7 +17,7 @@
 package io.vilada.higgs.plugin.httpclient;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface TargetAccessor {
 

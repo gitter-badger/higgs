@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.transport;
 import io.vilada.higgs.agent.common.config.ProfilerConfig;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface TransportListener {
 

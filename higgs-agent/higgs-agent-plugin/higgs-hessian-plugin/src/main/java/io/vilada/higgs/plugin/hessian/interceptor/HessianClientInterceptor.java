@@ -32,7 +32,7 @@ import java.lang.reflect.Method;
 import java.net.URL;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HessianClientInterceptor extends AbstractSpanAroundInterceptor {
 

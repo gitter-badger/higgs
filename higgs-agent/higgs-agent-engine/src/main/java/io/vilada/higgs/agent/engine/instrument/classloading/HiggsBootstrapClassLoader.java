@@ -25,7 +25,7 @@ import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsBootstrapClassLoader implements HiggsClassLoader {
 

@@ -22,7 +22,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentThreadDumpRepository extends ElasticsearchRepository<AgentThreadDumpBatch, String> {
 

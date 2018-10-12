@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.interceptor.Interceptor;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class InterceptorRegistry {
 

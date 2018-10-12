@@ -23,7 +23,7 @@ import io.vilada.higgs.common.trace.ComponentEnum;
 import com.opensymphony.xwork2.config.entities.ActionConfig;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class Struts2ActionInterceptor extends DefaultSpanAroundInterceptor {
 

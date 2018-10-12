@@ -71,7 +71,7 @@ import io.vilada.higgs.processing.bo.RefinedSpanAggregationBatch;
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 @Service
 public class DatabaseAggregationService extends AbstractSpanAggregationService {

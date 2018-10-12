@@ -20,7 +20,7 @@ import io.vilada.higgs.agent.common.config.ProfilerConfig;
 import io.opentracing.Span;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsSpan extends Span {
 

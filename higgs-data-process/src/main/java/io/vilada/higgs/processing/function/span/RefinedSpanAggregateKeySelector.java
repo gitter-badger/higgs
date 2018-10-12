@@ -20,7 +20,7 @@ import io.vilada.higgs.processing.dto.AggregateInstance;
 import org.apache.flink.api.java.functions.KeySelector;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RefinedSpanAggregateKeySelector implements KeySelector<AggregateInstance, Long> {
     @Override

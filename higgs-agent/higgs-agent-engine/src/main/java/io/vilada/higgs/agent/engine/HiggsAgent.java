@@ -32,7 +32,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Agent core component,
  * init context and manage lifecycle.
  *
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsAgent implements Agent {
 

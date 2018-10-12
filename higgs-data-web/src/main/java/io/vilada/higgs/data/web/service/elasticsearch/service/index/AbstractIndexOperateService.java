@@ -25,7 +25,7 @@ import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractIndexOperateService<T> implements IndexOperateService<T> {
 

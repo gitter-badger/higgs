@@ -17,7 +17,7 @@
 package io.vilada.higgs.collector.receive;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsCollectorException extends RuntimeException {
 

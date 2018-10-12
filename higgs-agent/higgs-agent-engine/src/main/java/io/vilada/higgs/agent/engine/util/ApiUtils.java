@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.util;
 import java.util.Arrays;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class ApiUtils {
 

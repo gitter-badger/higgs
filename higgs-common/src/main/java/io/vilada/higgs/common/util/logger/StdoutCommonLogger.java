@@ -22,7 +22,7 @@ import java.io.StringWriter;
 import java.text.MessageFormat;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StdoutCommonLogger implements CommonLogger {
 

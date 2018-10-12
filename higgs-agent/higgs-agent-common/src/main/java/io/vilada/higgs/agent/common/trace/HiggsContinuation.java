@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.trace;
 import io.opentracing.ActiveSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsContinuation extends ActiveSpan.Continuation {
 

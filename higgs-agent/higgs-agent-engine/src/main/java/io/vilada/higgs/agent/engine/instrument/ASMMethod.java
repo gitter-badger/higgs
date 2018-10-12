@@ -33,7 +33,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMMethod implements InstrumentMethod {
 

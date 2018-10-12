@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.instrument.classloading;
 import org.objectweb.asm.ClassReader;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SimpleClassMetadataReader {
 

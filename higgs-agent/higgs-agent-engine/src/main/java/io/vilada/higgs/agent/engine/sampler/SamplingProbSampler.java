@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.engine.util.XORShiftRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SamplingProbSampler implements Sampler {
 

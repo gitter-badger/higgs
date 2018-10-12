@@ -25,7 +25,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StaticMethodResolver {
     private final Class<?> type;

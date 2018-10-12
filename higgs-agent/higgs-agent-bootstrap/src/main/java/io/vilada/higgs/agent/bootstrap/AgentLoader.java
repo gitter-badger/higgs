@@ -27,7 +27,7 @@ import static io.vilada.higgs.agent.bootstrap.AgentConstant.HIGGS_ENGINE_PACKAGE
 
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentLoader {
 

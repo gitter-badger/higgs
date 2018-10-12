@@ -30,7 +30,7 @@ import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsRefinedSpanAggregateJob extends AbstractHiggsJob {
 

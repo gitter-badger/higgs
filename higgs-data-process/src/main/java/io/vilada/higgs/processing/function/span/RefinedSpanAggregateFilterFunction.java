@@ -20,7 +20,7 @@ import io.vilada.higgs.processing.dto.AggregateInstance;
 import org.apache.flink.api.common.functions.FilterFunction;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RefinedSpanAggregateFilterFunction implements FilterFunction<AggregateInstance> {
 

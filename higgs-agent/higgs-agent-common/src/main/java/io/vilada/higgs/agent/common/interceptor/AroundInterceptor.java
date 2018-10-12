@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.interceptor;
 import io.vilada.higgs.agent.common.trace.HiggsSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AroundInterceptor extends Interceptor {
 

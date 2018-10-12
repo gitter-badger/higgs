@@ -19,7 +19,7 @@ package io.vilada.higgs.data.web.service.bo.out.v2.remote;
 import lombok.Data;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Data
 public class RemoteCallListOutBO {

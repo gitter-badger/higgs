@@ -20,7 +20,7 @@ import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class Cache {
     private static final int SHARD_SIZE_LIMIT = 64;

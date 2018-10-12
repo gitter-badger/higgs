@@ -19,7 +19,7 @@ package io.vilada.higgs.data.web.service.elasticsearch.service;
 import java.util.Collection;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface SaveBatchService<T> {
 

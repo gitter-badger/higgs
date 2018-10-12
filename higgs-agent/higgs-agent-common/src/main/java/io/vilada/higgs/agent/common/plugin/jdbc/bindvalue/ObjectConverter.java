@@ -27,7 +27,7 @@ import io.vilada.higgs.agent.common.util.StringUtils;
 import io.vilada.higgs.common.util.ArrayUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ObjectConverter implements Converter {
 

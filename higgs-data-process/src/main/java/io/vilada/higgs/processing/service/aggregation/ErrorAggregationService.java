@@ -56,7 +56,7 @@ import io.vilada.higgs.processing.bo.RefinedSpanAggregationBatch;
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 @Service
 public class ErrorAggregationService extends AbstractSpanAggregationService {

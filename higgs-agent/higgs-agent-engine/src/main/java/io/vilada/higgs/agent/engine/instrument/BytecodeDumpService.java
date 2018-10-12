@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.instrument;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface BytecodeDumpService {
 

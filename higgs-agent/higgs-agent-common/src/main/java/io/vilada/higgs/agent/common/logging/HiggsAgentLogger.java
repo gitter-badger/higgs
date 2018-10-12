@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.logging;
 import io.vilada.higgs.common.util.logger.CommonLogger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsAgentLogger extends CommonLogger {
 

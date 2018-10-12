@@ -41,7 +41,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ThreadDumpService implements AgentService<TThreadDumpRequest> {
 

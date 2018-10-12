@@ -43,7 +43,7 @@ import java.util.Enumeration;
 
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StandardHostValveInvokeInterceptor extends AbstractActiveSpanAroundInterceptor {
 

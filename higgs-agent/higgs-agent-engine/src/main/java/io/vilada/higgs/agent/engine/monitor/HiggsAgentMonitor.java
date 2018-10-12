@@ -33,7 +33,7 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsAgentMonitor implements AgentMonitor {
 

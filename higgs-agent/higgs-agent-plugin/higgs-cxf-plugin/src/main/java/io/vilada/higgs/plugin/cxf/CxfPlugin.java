@@ -27,7 +27,7 @@ import io.vilada.higgs.plugin.cxf.interceptor.MessageObserverInterceptor;
 import io.vilada.higgs.plugin.cxf.interceptor.MessageOutInterceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class CxfPlugin implements ProfilerPlugin {
 

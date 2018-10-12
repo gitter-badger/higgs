@@ -17,7 +17,7 @@
 package io.vilada.higgs.data.common.constant;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum TypeEnum {
     CLIENT,

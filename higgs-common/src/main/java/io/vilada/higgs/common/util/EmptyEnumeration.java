@@ -19,7 +19,7 @@ package io.vilada.higgs.common.util;
 import java.util.Enumeration;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class EmptyEnumeration<E> implements Enumeration<E> {
     private static final NullNextElementAction NULL_NEXT_ELEMENT_ACTION = new NullNextElementAction();

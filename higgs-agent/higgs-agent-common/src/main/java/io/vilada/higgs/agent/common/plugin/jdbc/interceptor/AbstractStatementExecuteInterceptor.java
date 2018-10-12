@@ -26,7 +26,7 @@ import io.vilada.higgs.common.trace.SpanConstant;
 import io.opentracing.tag.Tags;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractStatementExecuteInterceptor extends AbstractAroundInterceptor {
 

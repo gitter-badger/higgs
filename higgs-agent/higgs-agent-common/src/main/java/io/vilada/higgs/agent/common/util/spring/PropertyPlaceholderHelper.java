@@ -34,8 +34,8 @@ import java.util.Set;
  *
  * copy : https://github.com/spring-projects/spring-framework/blob/master/spring-core/src/main/java/org/springframework/util/PropertyPlaceholderHelper.java
  *
- * @author ethan
- * @author ethan
+ * @author mjolnir
+ * @author mjolnir
  * @since 3.0
  */
 public class PropertyPlaceholderHelper {

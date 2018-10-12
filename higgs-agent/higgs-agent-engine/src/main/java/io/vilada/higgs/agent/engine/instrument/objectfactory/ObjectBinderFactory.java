@@ -26,7 +26,7 @@ import io.vilada.higgs.agent.engine.instrument.interceptor.AnnotatedInterceptorF
 import com.google.inject.Provider;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ObjectBinderFactory {
     private final ProfilerConfig profilerConfig;

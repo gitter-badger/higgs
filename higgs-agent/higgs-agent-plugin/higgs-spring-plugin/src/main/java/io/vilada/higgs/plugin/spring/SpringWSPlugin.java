@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.instrument.transformer.TransformTemplate;
 import io.vilada.higgs.agent.common.plugin.ProfilerPlugin;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public class SpringWSPlugin implements ProfilerPlugin {

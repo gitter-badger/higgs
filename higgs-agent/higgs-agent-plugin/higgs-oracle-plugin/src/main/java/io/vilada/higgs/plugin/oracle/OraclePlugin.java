@@ -31,7 +31,7 @@ import java.util.Map;
 
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class OraclePlugin implements ProfilerPlugin {
 

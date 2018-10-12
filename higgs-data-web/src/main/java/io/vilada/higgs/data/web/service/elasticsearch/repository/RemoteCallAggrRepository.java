@@ -21,7 +21,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 public interface RemoteCallAggrRepository extends ElasticsearchRepository<RemoteCallAggr, String> {
 }

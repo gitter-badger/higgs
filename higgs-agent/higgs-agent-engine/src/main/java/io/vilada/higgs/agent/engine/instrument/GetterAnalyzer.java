@@ -22,7 +22,7 @@ import io.vilada.higgs.common.util.Asserts;
 import java.lang.reflect.Method;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class GetterAnalyzer {
     public GetterDetails analyze(Class<?> getterType) {

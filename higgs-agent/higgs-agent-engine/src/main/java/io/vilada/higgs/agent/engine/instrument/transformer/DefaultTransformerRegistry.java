@@ -20,7 +20,7 @@ import java.lang.instrument.ClassFileTransformer;
 import java.util.*;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultTransformerRegistry implements TransformerRegistry {
 

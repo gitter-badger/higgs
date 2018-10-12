@@ -19,7 +19,7 @@ package io.vilada.higgs.processing.service.processor;
 import io.vilada.higgs.data.common.document.RefinedSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface SpanProcessor {
 

@@ -58,7 +58,7 @@ import com.google.inject.Scopes;
 import java.lang.instrument.Instrumentation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsAgentContextModule extends AbstractModule {
 

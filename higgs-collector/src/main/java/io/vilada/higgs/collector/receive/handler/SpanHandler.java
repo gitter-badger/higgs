@@ -27,7 +27,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Service
 @Slf4j

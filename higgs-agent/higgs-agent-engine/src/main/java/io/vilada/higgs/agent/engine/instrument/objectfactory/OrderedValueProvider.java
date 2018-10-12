@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
 import java.lang.annotation.Annotation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class OrderedValueProvider implements JudgingParameterResolver {
 

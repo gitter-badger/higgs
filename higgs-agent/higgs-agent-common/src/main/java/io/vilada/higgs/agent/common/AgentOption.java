@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.config.HiggsAgentConfig;
 import java.lang.instrument.Instrumentation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentOption {
 

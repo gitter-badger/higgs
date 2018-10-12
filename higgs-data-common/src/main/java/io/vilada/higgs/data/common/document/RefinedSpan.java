@@ -25,7 +25,7 @@ import static io.vilada.higgs.data.common.constant.ESIndexConstants.REFINEDSPAN_
 import static io.vilada.higgs.data.common.constant.ESIndexConstants.REFINEDSPAN_TYPE;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Document(indexName = REFINEDSPAN_SEARCH_INDEX, type = REFINEDSPAN_TYPE, createIndex = false)
 @Setter

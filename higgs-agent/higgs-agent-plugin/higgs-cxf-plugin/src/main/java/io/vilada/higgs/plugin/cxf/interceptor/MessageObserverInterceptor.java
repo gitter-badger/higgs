@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class MessageObserverInterceptor extends AbstractActiveSpanAroundInterceptor {
 

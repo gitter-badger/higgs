@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author yawei.liu
- * @author ethan
+ * @author mjolnir
  */
 @Component
 public class KafkaProducer {

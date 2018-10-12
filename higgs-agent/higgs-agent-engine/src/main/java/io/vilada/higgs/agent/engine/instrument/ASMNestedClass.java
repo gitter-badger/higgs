@@ -28,7 +28,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMNestedClass implements InstrumentClass {
 

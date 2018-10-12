@@ -23,7 +23,7 @@ import io.opentracing.tag.Tags;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class NosqlServerSpanProcessor implements SpanProcessor {
 

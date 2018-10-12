@@ -27,9 +27,9 @@ package io.vilada.higgs.common.util.apache;
  * not be supported in future releases of Apache Commons Lang.  Utilities of
  * this sort may be included in future releases of Apache Commons Collections.</p>
  *
- * @author ethan
- * @author ethan
- * @author ethan
+ * @author mjolnir
+ * @author mjolnir
+ * @author mjolnir
  * @since 2.0
  * @version $Revision$
  * @see java.util.HashMap

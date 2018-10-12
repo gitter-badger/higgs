@@ -30,7 +30,7 @@ import java.util.jar.JarFile;
  *
  * The entrance for higgs agent.
  *
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsBootstrap {
 

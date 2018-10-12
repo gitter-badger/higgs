@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class JvmGCMetricsCollector implements MetricsCollector<List<TJvmGc>> {
 

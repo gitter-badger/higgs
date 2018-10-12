@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMAspectWeaver {
     private static final Logger log = LoggerFactory.getLogger(ASMAspectWeaver.class);

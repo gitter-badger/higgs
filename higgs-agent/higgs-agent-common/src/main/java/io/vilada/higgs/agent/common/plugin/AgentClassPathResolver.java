@@ -26,7 +26,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentClassPathResolver {
     public static final String JAR_FILE_EXTENSION = ".jar";

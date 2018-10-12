@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.logging.HiggsAgentLogger;
 import io.vilada.higgs.agent.common.logging.HiggsAgentLoggerFactory;
 
 /**
- * @author ethan
+ * @author mjolnir
  * 
  */
 public class ClassResourceCondition implements Condition<String> {

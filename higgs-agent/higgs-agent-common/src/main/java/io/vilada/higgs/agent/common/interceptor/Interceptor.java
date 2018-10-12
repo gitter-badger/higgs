@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.interceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Interceptor {
     boolean isEnable();

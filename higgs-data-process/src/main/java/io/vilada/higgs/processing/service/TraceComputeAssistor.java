@@ -39,7 +39,7 @@ import static io.vilada.higgs.processing.TraceStatueEnum.INCOMPLETE;
 import static io.vilada.higgs.processing.TraceStatueEnum.OVERHEAD;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TraceComputeAssistor {
 

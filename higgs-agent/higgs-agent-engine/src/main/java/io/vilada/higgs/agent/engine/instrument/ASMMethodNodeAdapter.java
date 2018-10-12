@@ -30,7 +30,7 @@ import org.objectweb.asm.tree.MethodNode;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMMethodNodeAdapter {
 

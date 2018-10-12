@@ -21,7 +21,7 @@ import org.apache.thrift.protocol.TJSONProtocol;
 import org.apache.thrift.protocol.TProtocolFactory;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class DefaultJsonSerializerFactory implements SerializerFactory<TSerializer> {
 

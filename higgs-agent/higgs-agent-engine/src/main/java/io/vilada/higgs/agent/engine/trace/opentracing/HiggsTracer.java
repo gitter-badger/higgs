@@ -26,7 +26,7 @@ import io.opentracing.propagation.Format;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsTracer implements Tracer {
 

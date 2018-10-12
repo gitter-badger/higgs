@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.logging;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsAgentLoggerBinder {
 

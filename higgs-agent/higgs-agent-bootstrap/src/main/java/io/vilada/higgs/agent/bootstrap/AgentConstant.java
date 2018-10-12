@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.bootstrap;
 import java.util.regex.Pattern;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentConstant {
 

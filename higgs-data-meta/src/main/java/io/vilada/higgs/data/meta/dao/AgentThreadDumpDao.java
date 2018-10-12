@@ -31,7 +31,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Mapper
 public interface AgentThreadDumpDao {

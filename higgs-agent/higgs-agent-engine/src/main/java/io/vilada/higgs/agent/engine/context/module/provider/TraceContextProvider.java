@@ -25,7 +25,7 @@ import com.google.inject.Inject;
 import com.google.inject.Provider;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TraceContextProvider implements Provider<TraceContext> {
 

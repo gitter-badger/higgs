@@ -24,7 +24,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class Slf4jLoggerBinder implements HiggsAgentLoggerBinder {
 

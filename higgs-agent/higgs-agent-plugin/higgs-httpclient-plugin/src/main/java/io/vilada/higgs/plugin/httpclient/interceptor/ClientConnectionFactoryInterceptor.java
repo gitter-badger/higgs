@@ -24,7 +24,7 @@ import org.apache.http.HttpHost;
 import org.apache.http.conn.routing.HttpRoute;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ClientConnectionFactoryInterceptor extends AbstractNonSpanAroundInterceptor {
 

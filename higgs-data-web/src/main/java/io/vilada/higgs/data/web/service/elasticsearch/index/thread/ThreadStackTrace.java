@@ -19,7 +19,7 @@ package io.vilada.higgs.data.web.service.elasticsearch.index.thread;
 import lombok.Data;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Data
 public class ThreadStackTrace {

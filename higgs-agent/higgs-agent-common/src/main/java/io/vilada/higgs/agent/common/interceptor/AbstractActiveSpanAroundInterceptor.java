@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.trace.HiggsActiveSpan;
 import io.vilada.higgs.agent.common.trace.HiggsSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractActiveSpanAroundInterceptor extends AbstractAroundInterceptor {
 

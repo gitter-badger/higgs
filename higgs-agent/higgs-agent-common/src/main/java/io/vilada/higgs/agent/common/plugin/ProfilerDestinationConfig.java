@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.common.config.ProfilerConfig;
 import io.vilada.higgs.agent.common.util.StringUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ProfilerDestinationConfig {
 

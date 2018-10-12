@@ -20,7 +20,7 @@ package io.vilada.higgs.agent.common.plugin.jdbc.bindvalue;
 import io.vilada.higgs.common.util.ArrayUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class BytesConverter implements Converter {
 

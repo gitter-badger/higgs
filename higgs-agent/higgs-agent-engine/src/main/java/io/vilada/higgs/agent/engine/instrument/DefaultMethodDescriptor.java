@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.engine.util.ApiUtils;
 import java.util.Arrays;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultMethodDescriptor implements MethodDescriptor {
 

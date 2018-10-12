@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractPreparedStatementBindVariableInterceptor extends AbstractNonSpanAroundInterceptor {
 

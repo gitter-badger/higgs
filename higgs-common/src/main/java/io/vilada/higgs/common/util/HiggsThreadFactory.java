@@ -20,7 +20,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsThreadFactory implements ThreadFactory {
 

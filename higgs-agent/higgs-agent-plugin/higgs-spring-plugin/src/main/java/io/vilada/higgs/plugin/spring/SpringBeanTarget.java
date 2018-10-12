@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SpringBeanTarget {
     public static final String ANT_STYLE_PATTERN_PREFIX = "antstyle";

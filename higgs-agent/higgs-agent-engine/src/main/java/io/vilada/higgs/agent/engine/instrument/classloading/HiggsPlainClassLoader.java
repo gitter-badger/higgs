@@ -39,7 +39,7 @@ import java.util.concurrent.ConcurrentMap;
 import static io.vilada.higgs.agent.bootstrap.AgentConstant.BOOTSTRAP_PACKAGE;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsPlainClassLoader implements HiggsClassLoader {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());

@@ -17,7 +17,7 @@
 package io.vilada.higgs.serialization.thrift.factory;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface DeserializerFactory<E> {
     E createDeserializer();

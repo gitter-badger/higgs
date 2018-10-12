@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.context.InterceptorContext;
 import io.vilada.higgs.agent.common.plugin.jdbc.interceptor.AbstractCallableStatementRegisterOutParameterInterceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class MySQLCallableStatementRegisterOutParameterInterceptor extends AbstractCallableStatementRegisterOutParameterInterceptor {
 

@@ -20,7 +20,7 @@ import java.lang.instrument.ClassFileTransformer;
 import java.util.Collection;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface TransformerRegistry {
 

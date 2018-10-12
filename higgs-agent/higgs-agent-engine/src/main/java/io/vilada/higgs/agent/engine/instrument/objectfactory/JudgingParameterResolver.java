@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.instrument.objectfactory;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface JudgingParameterResolver extends ArgumentProvider {
     void prepare();

@@ -23,7 +23,7 @@ import io.vilada.higgs.common.util.MathUtils;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SamplingRateSampler implements Sampler {
 

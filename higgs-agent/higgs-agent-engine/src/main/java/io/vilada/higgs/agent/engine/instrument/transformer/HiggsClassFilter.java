@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.instrument.transformer;
 import static io.vilada.higgs.common.HiggsConstants.HIGGS_BASE_PACKAGE;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsClassFilter implements ClassFileFilter {
 

@@ -29,7 +29,7 @@ import org.springframework.beans.factory.config.BeanDefinitionHolder;
 import java.util.Set;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ClassPathDefinitionScannerDoScanInterceptor implements AroundInterceptor {
     protected final HiggsAgentLogger logger = HiggsAgentLoggerFactory.getLogger(getClass());

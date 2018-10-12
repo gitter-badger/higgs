@@ -26,7 +26,7 @@ import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class RawSpanSpeedWindowFunction implements WindowFunction<RefinedSpan,

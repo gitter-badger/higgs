@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.sampler;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Sampler {
     boolean isSampling();

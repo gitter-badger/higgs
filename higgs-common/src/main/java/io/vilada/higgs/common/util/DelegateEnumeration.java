@@ -19,7 +19,7 @@ package io.vilada.higgs.common.util;
 import java.util.Enumeration;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DelegateEnumeration<E> implements Enumeration<E> {
     private static final Object NULL_OBJECT = new Object();

@@ -116,8 +116,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * This class is a member of the <a href="{@docRoot}/../technotes/guides/collections/index.html">
  * Java Collections Framework</a>.
  *
- * @author ethan
- * @author ethan
+ * @author mjolnir
+ * @author mjolnir
  * @param <K> the type of keys maintained by this map
  * @param <V> the type of mapped values
  */

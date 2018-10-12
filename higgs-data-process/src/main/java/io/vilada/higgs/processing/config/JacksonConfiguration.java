@@ -25,7 +25,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Configuration
 public class JacksonConfiguration {

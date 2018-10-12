@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Agent {
 

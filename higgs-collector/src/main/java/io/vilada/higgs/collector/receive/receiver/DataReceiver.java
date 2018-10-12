@@ -17,7 +17,7 @@
 package io.vilada.higgs.collector.receive.receiver;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface DataReceiver {
     void start();

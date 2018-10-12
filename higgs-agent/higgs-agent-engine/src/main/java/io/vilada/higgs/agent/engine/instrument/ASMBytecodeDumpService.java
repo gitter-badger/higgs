@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMBytecodeDumpService implements BytecodeDumpService {
 

@@ -31,7 +31,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TargetBeanFilter {
     private final List<SpringBeanTarget> targets;

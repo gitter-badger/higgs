@@ -25,7 +25,7 @@ import org.apache.catalina.connector.Connector;
 import org.apache.catalina.util.ServerInfo;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ConnectorInitializeInterceptor extends AbstractNonSpanAroundInterceptor {
 

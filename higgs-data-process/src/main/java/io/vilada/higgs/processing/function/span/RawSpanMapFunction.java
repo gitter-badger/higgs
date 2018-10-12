@@ -21,7 +21,7 @@ import io.vilada.higgs.processing.HiggsJobContext;
 import org.apache.flink.api.common.functions.MapFunction;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RawSpanMapFunction implements MapFunction<RefinedSpan, RefinedSpan> {
 

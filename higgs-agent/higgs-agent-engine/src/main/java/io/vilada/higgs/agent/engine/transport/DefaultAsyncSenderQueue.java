@@ -41,7 +41,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultAsyncSenderQueue {
 

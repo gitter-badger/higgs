@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.util;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum JvmVersion {
     JAVA_5(1.5, 49),

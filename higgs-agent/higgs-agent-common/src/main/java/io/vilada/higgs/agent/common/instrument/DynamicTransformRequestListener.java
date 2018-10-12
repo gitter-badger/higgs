@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.instrument;
 import java.lang.instrument.ClassFileTransformer;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface DynamicTransformRequestListener {
 

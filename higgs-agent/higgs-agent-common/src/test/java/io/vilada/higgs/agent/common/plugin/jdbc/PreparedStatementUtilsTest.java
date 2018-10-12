@@ -25,7 +25,7 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class PreparedStatementUtilsTest {
 

@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.config;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum DumpType {
 //  NONE(-1),  comment out because of duplicated configuration.

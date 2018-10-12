@@ -17,7 +17,7 @@
 package io.vilada.higgs.common.util;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface NextElementAction<E> {
     E nextElement();

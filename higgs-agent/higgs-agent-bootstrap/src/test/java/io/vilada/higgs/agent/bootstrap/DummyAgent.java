@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.AgentOption;
 import io.vilada.higgs.agent.common.config.HiggsAgentConfig;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DummyAgent implements Agent {
 

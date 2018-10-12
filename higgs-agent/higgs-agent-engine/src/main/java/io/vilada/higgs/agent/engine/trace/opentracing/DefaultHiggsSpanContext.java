@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultHiggsSpanContext extends TSpanContext implements HiggsSpanContext {
 

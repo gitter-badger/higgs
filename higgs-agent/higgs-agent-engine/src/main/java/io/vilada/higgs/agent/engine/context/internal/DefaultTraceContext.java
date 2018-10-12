@@ -31,7 +31,7 @@ import io.opentracing.SpanContext;
 import io.opentracing.propagation.Format;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultTraceContext implements TraceContext {
 

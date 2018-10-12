@@ -23,7 +23,7 @@ import io.vilada.higgs.common.trace.ComponentEnum;
 import io.opentracing.tag.Tags;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class Struts2ExceptionInterceptor extends DefaultSpanAroundInterceptor {
 

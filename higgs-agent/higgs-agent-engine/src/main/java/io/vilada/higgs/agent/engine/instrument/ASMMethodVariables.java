@@ -41,7 +41,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMMethodVariables {
     private static final Type BYTE_TYPE = Type.getObjectType("java/lang/Byte");

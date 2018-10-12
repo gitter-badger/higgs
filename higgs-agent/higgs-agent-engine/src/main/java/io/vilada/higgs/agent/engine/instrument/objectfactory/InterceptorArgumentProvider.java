@@ -24,7 +24,7 @@ import io.vilada.higgs.agent.common.instrument.InstrumentMethod;
 import java.lang.annotation.Annotation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class InterceptorArgumentProvider implements ArgumentProvider {
     private final InstrumentClass targetClass;

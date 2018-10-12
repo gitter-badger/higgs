@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.instrument.transformer.TransformCallback;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface Instrumenter {
 

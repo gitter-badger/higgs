@@ -33,7 +33,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentInfoSendTask implements Runnable {
 

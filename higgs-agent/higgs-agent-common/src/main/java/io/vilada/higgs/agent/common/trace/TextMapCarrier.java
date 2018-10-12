@@ -23,7 +23,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TextMapCarrier implements TextMap {
 

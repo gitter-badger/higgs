@@ -25,7 +25,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ClientConnectionBindInterceptor extends AbstractNonSpanAroundInterceptor {
 

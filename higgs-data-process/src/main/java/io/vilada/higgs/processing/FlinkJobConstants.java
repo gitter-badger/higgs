@@ -17,7 +17,7 @@
 package io.vilada.higgs.processing;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface FlinkJobConstants {
 

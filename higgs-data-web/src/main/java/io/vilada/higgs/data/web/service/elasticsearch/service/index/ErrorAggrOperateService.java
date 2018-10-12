@@ -23,7 +23,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 import org.springframework.stereotype.Service;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Service
 public class ErrorAggrOperateService extends AbstractIndexOperateService<ErrorAggr> {

@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.config;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class SkipFilter<T> implements Filter<T> {
 

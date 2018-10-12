@@ -47,7 +47,7 @@ import static io.vilada.higgs.processing.FlinkJobConstants.DASH_DELIMITER;
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 @Service
 public class RemoteCallAggregationService extends AbstractSpanAggregationService {

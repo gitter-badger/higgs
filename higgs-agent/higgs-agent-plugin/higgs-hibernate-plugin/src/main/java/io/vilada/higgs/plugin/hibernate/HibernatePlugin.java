@@ -25,7 +25,7 @@ import io.vilada.higgs.agent.common.plugin.ProfilerPlugin;
 import io.vilada.higgs.common.trace.ComponentEnum;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HibernatePlugin implements ProfilerPlugin {
 

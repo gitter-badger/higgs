@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Data
 public class ThreadStackTraceOutVO {

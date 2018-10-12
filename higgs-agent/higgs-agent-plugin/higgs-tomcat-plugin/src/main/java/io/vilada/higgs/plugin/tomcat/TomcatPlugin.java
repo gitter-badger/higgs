@@ -27,7 +27,7 @@ import io.vilada.higgs.agent.common.trace.HiggsContinuationAccessor;
 import io.vilada.higgs.plugin.tomcat.interceptor.*;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class TomcatPlugin implements ProfilerPlugin {
 

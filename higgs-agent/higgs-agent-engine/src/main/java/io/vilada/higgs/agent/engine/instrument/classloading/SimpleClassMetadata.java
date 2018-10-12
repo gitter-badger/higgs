@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.instrument.classloading;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface SimpleClassMetadata {
 

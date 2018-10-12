@@ -28,7 +28,7 @@ import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public class HiggsStarter {

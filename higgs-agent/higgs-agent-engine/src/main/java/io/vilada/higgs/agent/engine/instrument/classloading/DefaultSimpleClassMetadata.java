@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.util.JavaBytecodeUtil;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultSimpleClassMetadata implements SimpleClassMetadata {
 

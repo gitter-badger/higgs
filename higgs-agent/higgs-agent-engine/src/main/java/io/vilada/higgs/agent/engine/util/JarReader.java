@@ -31,7 +31,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class JarReader {
 

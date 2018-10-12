@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.util;
 import java.util.jar.JarEntry;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ExtensionFilter implements JarEntryFilter {
 

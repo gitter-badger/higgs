@@ -20,7 +20,7 @@ import io.vilada.higgs.data.common.document.RefinedSpan;
 import org.apache.flink.api.common.functions.FilterFunction;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RawSpanFilterFunction implements FilterFunction<RefinedSpan> {
 

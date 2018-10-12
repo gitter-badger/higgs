@@ -45,7 +45,7 @@ import java.net.URI;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class CxfClientInterceptor extends AbstractSpanAroundInterceptor {
 

@@ -21,7 +21,7 @@ import org.objectweb.asm.Type;
 import org.objectweb.asm.tree.FieldNode;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMFieldNodeAdapter {
     private FieldNode fieldNode;

@@ -19,7 +19,7 @@ package io.vilada.higgs.processing.service.aggregation;
 import io.vilada.higgs.processing.bo.RefinedSpanAggregationBatch;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface SpanAggregationService {
 

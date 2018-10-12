@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.instrument.objectfactory;
 import java.lang.annotation.Annotation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface ArgumentProvider {
     Option get(int index, Class<?> type, Annotation[] annotations);

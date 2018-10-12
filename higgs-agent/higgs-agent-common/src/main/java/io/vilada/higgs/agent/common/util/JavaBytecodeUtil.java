@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class JavaBytecodeUtil {
     private static final String ARRAY = "[]";

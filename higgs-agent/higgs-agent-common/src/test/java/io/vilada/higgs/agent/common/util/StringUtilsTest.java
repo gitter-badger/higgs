@@ -23,7 +23,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StringUtilsTest {
     private String longString = "This is a very long string for testing drop function. Length of this string is more than sixty four.";

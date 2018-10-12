@@ -33,7 +33,7 @@ import com.google.inject.Provider;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentMonitorProvider implements Provider<AgentMonitor> {
 

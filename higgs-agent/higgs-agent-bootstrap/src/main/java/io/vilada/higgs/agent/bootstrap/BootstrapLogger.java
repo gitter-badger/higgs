@@ -23,7 +23,7 @@ import java.text.MessageFormat;
 
 /**
  * only for bootstrap, base system.in and system.our implelement
- * @author ethan
+ * @author mjolnir
  */
 public final class BootstrapLogger {
 

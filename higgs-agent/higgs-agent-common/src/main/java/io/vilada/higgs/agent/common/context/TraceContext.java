@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.common.trace.HiggsSpan;
 import io.vilada.higgs.agent.common.trace.HiggsSpanContext;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface TraceContext {
 

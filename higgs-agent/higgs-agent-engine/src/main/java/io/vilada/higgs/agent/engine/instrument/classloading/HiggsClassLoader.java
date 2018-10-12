@@ -22,7 +22,7 @@ import java.io.InputStream;
  * Load plugin classes for any layer,
  * that means that any class can use the plugin class normally
  *
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsClassLoader {
 

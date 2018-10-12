@@ -26,7 +26,7 @@ import com.google.inject.Provider;
 import java.lang.instrument.Instrumentation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class InstrumentEngineProvider implements Provider<InstrumentEngine> {
 

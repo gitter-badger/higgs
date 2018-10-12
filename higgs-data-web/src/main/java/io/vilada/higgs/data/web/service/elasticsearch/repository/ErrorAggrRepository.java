@@ -21,7 +21,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 public interface ErrorAggrRepository extends ElasticsearchRepository<ErrorAggr, String> {
 }

@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.plugin.jdbc.interceptor;
 import io.vilada.higgs.agent.common.context.InterceptorContext;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractCallableStatementRegisterOutParameterInterceptor extends AbstractPreparedStatementBindVariableInterceptor {
 

@@ -19,7 +19,7 @@ package io.vilada.higgs.plugin.httpclient;
 import org.apache.http.concurrent.BasicFuture;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public interface ResultFutureGetter {

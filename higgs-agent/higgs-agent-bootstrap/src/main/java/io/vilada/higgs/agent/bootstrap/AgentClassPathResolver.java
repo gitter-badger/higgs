@@ -35,7 +35,7 @@ import static io.vilada.higgs.agent.bootstrap.AgentConstant.AGENT_BOOTSTRAP_PLUG
 import static io.vilada.higgs.agent.bootstrap.AgentConstant.JAR_FILE_EXTENSION;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentClassPathResolver {
 

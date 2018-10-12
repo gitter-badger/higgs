@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.service;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentService<R> {
 

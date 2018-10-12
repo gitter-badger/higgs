@@ -26,7 +26,7 @@ import io.vilada.higgs.agent.common.logging.HiggsAgentLoggerFactory;
 import io.vilada.higgs.agent.common.trace.HiggsSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class PostProcessorInterceptor extends AbstractSpringBeanCreationInterceptor implements AroundInterceptor {
 

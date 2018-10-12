@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.common.instrument.DynamicTransformRequestListener;
 import java.lang.instrument.ClassFileTransformer;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface DynamicTransformerRegistry extends DynamicTransformRequestListener {
     ClassFileTransformer getTransformer(ClassLoader classLoader, String targetClassName);

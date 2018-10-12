@@ -27,7 +27,7 @@ import org.springframework.kafka.annotation.EnableKafka;
 import javax.annotation.PreDestroy;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @EnableKafka
 @Configuration

@@ -27,7 +27,7 @@ import java.security.ProtectionDomain;
 import java.util.Set;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultHiggsClassFileTransformer implements HiggsClassFileTransformer {
 

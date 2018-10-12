@@ -20,7 +20,7 @@ import io.vilada.higgs.processing.dto.ReprocessingTrace;
 import org.apache.flink.api.common.functions.FilterFunction;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RepricessingTraceFilterFunction implements FilterFunction<ReprocessingTrace> {
 

@@ -26,7 +26,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RefinedSpanAggregateWindowFunction implements
         WindowFunction<AggregateInstance, RefinedSpanAggregationBatch, Long, TimeWindow> {

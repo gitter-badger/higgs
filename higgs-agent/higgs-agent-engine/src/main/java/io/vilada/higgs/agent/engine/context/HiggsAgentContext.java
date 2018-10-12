@@ -48,7 +48,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 
 public class HiggsAgentContext implements AgentContext {

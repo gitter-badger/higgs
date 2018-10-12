@@ -25,7 +25,7 @@ import javax.validation.constraints.Max;
 import static io.vilada.higgs.data.common.constant.ESIndexConstants.MAX_BUCKET_SIZE;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Getter
 @Setter

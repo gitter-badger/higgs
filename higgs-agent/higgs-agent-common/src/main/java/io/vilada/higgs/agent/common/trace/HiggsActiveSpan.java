@@ -20,7 +20,7 @@ import io.vilada.higgs.agent.common.util.Triple;
 import io.opentracing.ActiveSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsActiveSpan extends ActiveSpan {
 

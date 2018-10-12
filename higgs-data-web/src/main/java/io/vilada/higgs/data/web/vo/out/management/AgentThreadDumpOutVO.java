@@ -26,7 +26,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Data
 public class AgentThreadDumpOutVO implements Serializable {

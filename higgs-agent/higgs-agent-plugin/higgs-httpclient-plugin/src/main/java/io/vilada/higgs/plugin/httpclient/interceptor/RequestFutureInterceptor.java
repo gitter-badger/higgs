@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.interceptor.AbstractContinuationAroundInterc
 import io.vilada.higgs.agent.common.trace.HiggsSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RequestFutureInterceptor extends AbstractContinuationAroundInterceptor {
 

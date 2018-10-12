@@ -34,7 +34,7 @@ import java.lang.instrument.Instrumentation;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMEngine implements InstrumentEngine {
     private static final Logger logger = LoggerFactory.getLogger(ASMEngine.class);

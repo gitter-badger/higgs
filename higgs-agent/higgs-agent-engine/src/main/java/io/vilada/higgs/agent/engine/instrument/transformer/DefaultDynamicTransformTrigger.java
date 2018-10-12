@@ -31,7 +31,7 @@ import java.lang.instrument.Instrumentation;
 import java.lang.instrument.UnmodifiableClassException;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @IgnoreJRERequirement
 public class DefaultDynamicTransformTrigger implements DynamicTransformTrigger {

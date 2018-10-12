@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static io.vilada.higgs.agent.bootstrap.AgentConstant.AGENT_BOOTSTRAP_EXTLIB_DIR;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentClassPathResolverTest {
 

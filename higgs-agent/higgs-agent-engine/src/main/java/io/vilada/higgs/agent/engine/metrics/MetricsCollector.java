@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.metrics;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface MetricsCollector<T> {
     

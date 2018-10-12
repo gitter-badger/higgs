@@ -28,7 +28,7 @@ import static io.vilada.higgs.data.common.constant.ESIndexConstants.ONE_MINUTE_T
 
 /**
  *
- * @author ethan
+ * @author mjolnir
  */
 @Document(indexName = ERROR_AGGR_SEARCH_INDEX, type = ONE_MINUTE_TYPE, createIndex = false)
 @Data

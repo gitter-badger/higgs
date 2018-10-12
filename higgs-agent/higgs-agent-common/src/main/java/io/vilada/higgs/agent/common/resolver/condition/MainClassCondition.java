@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.util.jar.JarFile;
 
 /**
- * @author ethan
+ * @author mjolnir
  * 
  */
 public class MainClassCondition implements Condition<String>, ConditionValue<String> {

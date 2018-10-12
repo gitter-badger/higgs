@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.util;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum JVMSystemPropertyKey {
 

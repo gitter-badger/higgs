@@ -30,7 +30,7 @@ import java.util.IdentityHashMap;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsSlf4JLoggerDelegate implements HiggsAgentLogger {
     public static final int BUFFER_SIZE = 512;

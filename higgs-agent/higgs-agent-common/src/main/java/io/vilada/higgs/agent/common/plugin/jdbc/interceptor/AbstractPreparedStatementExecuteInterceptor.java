@@ -31,7 +31,7 @@ import io.opentracing.tag.Tags;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractPreparedStatementExecuteInterceptor extends AbstractAroundInterceptor {
 

@@ -20,7 +20,7 @@ import io.vilada.higgs.processing.dto.ReprocessingTrace;
 import org.apache.flink.api.java.functions.KeySelector;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ReprocessingTraceKeySelector implements KeySelector<ReprocessingTrace, String> {
     @Override

@@ -20,7 +20,7 @@ import io.vilada.higgs.agent.common.config.HiggsAgentConfig;
 import io.vilada.higgs.agent.common.config.ProfilerConfig;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultDataHttpTransport extends AbstractDataHttpTransport {
 

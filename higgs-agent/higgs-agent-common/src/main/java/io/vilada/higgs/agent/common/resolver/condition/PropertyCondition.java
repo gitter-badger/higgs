@@ -24,7 +24,7 @@ import io.vilada.higgs.common.util.SimpleProperty;
 import io.vilada.higgs.common.util.SystemProperty;
 
 /**
- * @author ethan
+ * @author mjolnir
  * 
  */
 public class PropertyCondition implements Condition<String>, ConditionValue<SimpleProperty> {

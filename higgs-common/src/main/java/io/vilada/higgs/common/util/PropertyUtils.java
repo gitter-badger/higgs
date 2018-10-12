@@ -36,7 +36,7 @@ import java.util.Set;
 /**
  * PropertyUtils for jdk5
  *
- * @author ethan
+ * @author mjolnir
  */
 public final class PropertyUtils {
 

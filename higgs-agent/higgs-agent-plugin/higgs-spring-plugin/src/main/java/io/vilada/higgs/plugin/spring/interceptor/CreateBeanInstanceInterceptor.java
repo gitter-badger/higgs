@@ -28,7 +28,7 @@ import io.vilada.higgs.agent.common.trace.HiggsSpan;
 import java.lang.reflect.Method;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class CreateBeanInstanceInterceptor extends AbstractSpringBeanCreationInterceptor implements AroundInterceptor {
 

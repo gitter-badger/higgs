@@ -26,7 +26,7 @@ import java.net.UnknownHostException;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class NetworkUtilsTest {
     private Logger logger = LoggerFactory.getLogger(this.getClass().getName());

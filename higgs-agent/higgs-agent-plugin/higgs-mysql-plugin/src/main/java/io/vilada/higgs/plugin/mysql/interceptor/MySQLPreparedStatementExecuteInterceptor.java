@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.plugin.jdbc.interceptor.AbstractPreparedStat
 import io.vilada.higgs.common.trace.ComponentEnum;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class MySQLPreparedStatementExecuteInterceptor extends AbstractPreparedStatementExecuteInterceptor {
 

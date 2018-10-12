@@ -27,7 +27,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsURLClassLoader implements HiggsClassLoader {
 

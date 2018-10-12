@@ -31,7 +31,7 @@ import java.util.Enumeration;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class NetUtils {
 

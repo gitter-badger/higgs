@@ -21,7 +21,7 @@ import io.vilada.higgs.agent.engine.instrument.transformer.HiggsClassFileTransfo
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface PluginContext {
 

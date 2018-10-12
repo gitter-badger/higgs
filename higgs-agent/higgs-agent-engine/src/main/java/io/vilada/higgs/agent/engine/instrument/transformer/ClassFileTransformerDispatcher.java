@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.instrument.transformer;
 import java.lang.instrument.ClassFileTransformer;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface ClassFileTransformerDispatcher extends ClassFileTransformer {
 

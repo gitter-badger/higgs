@@ -23,7 +23,7 @@ import org.apache.flink.streaming.api.environment.CheckpointConfig;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public abstract class AbstractHiggsJob {
 

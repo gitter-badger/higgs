@@ -25,7 +25,7 @@ import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class BytecodeDumpTransformerDispatcher implements ClassFileTransformerDispatcher {
 

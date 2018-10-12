@@ -24,7 +24,7 @@ import io.vilada.higgs.agent.common.trace.AsyncAccessor;
 import io.vilada.higgs.agent.common.trace.HiggsActiveSpan;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RequestRecycleInterceptor extends AbstractNonSpanAroundInterceptor {
 

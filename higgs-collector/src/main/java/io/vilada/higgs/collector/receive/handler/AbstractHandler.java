@@ -30,7 +30,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public abstract class AbstractHandler<Q extends TBase<?, ?>> implements Handler {

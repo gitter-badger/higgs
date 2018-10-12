@@ -19,7 +19,7 @@ package io.vilada.higgs.plugin.httpclient;
 import org.apache.http.nio.protocol.HttpAsyncRequestProducer;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public interface RequestProducerGetter {

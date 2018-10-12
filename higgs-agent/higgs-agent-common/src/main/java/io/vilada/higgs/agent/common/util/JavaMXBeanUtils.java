@@ -24,7 +24,7 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class JavaMXBeanUtils {
 

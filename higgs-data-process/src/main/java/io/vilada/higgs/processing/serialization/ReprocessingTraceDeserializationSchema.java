@@ -26,7 +26,7 @@ import org.apache.thrift.TException;
 import java.io.IOException;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class ReprocessingTraceDeserializationSchema implements KeyedDeserializationSchema<ReprocessingTrace> {

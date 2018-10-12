@@ -24,7 +24,7 @@ import io.vilada.higgs.common.trace.ComponentEnum;
 import java.lang.reflect.Method;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class InvokerInterceptor extends DefaultSpanAroundInterceptor {
     public InvokerInterceptor(InterceptorContext interceptorContext) {

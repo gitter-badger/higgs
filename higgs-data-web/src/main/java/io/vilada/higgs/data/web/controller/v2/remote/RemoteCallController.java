@@ -43,7 +43,7 @@ import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.COM
 import static io.vilada.higgs.data.web.service.enums.DataCommonVOMessageEnum.ORDER_FILED_INVALID;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @RestController
 @RequestMapping(value = "/server/v2/remote", produces = {"application/json;charset=UTF-8"})

@@ -22,7 +22,7 @@ import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface IndexOperateService<T> {
 

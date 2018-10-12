@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ConstructorResolver {
     private final Class<?> type;

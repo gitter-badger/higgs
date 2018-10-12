@@ -24,7 +24,7 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadMXBean;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultAgentStatCollector implements AgentStatMetricsCollector {
 

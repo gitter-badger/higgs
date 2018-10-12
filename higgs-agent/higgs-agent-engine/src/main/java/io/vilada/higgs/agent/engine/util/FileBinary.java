@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.util;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class FileBinary {
     private final String className;

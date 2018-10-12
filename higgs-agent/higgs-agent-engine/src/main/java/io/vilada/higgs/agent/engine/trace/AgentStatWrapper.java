@@ -20,7 +20,7 @@ import io.vilada.higgs.common.util.HiggsMessageType;
 import io.vilada.higgs.serialization.thrift.dto.TAgentStat;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentStatWrapper extends TAgentStat implements DataWrapper<TAgentStat> {
 

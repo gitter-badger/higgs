@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.util;
 import java.util.jar.JarEntry;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface JarEntryFilter {
     boolean filter(JarEntry jarEntry);

@@ -24,7 +24,7 @@ import io.vilada.higgs.common.trace.SpanConstant;
 import org.apache.struts.action.ActionForward;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StrutsRequestProcessorExceptionInterceptor extends DefaultSpanAroundInterceptor {
 

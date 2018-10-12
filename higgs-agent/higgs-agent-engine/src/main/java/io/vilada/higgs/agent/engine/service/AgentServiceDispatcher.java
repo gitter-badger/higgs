@@ -20,7 +20,7 @@ import io.vilada.higgs.common.util.HiggsMessageType;
 import org.apache.thrift.TBase;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentServiceDispatcher {
 

@@ -24,7 +24,7 @@ import java.io.InputStream;
 import java.net.URLClassLoader;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class HiggsPluginJarClassLoader implements HiggsClassLoader {
 

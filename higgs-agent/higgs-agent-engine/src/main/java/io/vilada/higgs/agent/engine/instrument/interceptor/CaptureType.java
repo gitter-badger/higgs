@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.engine.instrument.interceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum CaptureType {
     AROUND(), BEFORE(), AFTER(), NON()

@@ -46,7 +46,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class HiggsJobContext {

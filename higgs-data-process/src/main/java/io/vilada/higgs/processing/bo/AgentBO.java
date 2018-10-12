@@ -20,7 +20,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Setter
 @Getter

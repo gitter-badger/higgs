@@ -29,7 +29,7 @@ import org.apache.struts.action.ActionMapping;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class StrutsRequestProcessorInterceptor extends DefaultSpanAroundInterceptor {
 

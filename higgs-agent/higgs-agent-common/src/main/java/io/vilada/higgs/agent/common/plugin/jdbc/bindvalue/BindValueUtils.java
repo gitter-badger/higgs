@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.util.StringUtils;
 import java.util.Map;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class BindValueUtils {
 

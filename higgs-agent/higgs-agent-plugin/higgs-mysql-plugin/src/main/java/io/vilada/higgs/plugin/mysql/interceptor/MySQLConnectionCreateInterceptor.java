@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.common.plugin.jdbc.DatabaseURLAccessor;
 import io.vilada.higgs.agent.common.util.StringUtils;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class MySQLConnectionCreateInterceptor extends AbstractNonSpanAroundInterceptor {
 

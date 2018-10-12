@@ -23,7 +23,7 @@ import io.vilada.higgs.agent.common.plugin.jdbc.DatabaseURLAccessor;
 import io.vilada.higgs.agent.common.plugin.jdbc.SqlAccessor;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class OraclePreparedStatementCreateInterceptor extends AbstractNonSpanAroundInterceptor {
 

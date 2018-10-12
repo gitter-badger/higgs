@@ -20,7 +20,7 @@ import io.vilada.higgs.data.common.document.RefinedSpan;
 import io.opentracing.tag.Tags;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class MqServerSpanProcessor implements SpanProcessor {
 

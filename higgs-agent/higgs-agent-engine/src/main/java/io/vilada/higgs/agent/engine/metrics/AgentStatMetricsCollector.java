@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.engine.metrics;
 import io.vilada.higgs.agent.engine.trace.AgentStatWrapper;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface AgentStatMetricsCollector extends MetricsCollector<AgentStatWrapper> {
 

@@ -25,7 +25,7 @@ import org.apache.commons.lang.StringUtils;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class RemoteCallClientSpanProcessor implements SpanProcessor {
 

@@ -28,7 +28,7 @@ import java.net.UnknownHostException;
 import java.util.Enumeration;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class LocalHostTest {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());

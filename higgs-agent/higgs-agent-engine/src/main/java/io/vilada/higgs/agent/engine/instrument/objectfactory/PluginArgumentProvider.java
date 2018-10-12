@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.instrument.InstrumentContext;
 import java.lang.annotation.Annotation;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class PluginArgumentProvider implements ArgumentProvider {
 

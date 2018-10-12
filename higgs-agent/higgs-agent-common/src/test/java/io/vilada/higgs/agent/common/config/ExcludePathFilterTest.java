@@ -25,7 +25,7 @@ import static org.hamcrest.core.Is.is;
 
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ExcludePathFilterTest {
 

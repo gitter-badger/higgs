@@ -42,7 +42,7 @@ import static io.vilada.higgs.data.common.constant.ESIndexConstants.REFINEDSPAN_
 import static io.vilada.higgs.data.common.constant.ESIndexConstants.REFINEDSPAN_TYPE;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class RefinedSpanElasticsearchSinkFunction implements ElasticsearchSinkFunction<Iterable<RefinedSpan>> {

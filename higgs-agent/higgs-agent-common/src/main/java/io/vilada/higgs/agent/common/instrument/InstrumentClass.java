@@ -19,7 +19,7 @@ package io.vilada.higgs.agent.common.instrument;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface InstrumentClass {
 

@@ -17,7 +17,7 @@
 package io.vilada.higgs.common;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class HiggsConstants {
 

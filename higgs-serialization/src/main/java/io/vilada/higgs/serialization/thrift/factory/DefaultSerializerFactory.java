@@ -21,7 +21,7 @@ import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocolFactory;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class DefaultSerializerFactory implements SerializerFactory<TSerializer> {
 

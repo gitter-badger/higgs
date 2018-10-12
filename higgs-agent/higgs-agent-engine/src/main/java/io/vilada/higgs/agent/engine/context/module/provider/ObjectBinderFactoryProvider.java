@@ -26,7 +26,7 @@ import com.google.inject.Inject;
 import com.google.inject.Provider;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ObjectBinderFactoryProvider implements Provider<ObjectBinderFactory> {
 

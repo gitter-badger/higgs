@@ -17,7 +17,7 @@
 package io.vilada.higgs.agent.common.config;
 
 /**
- * @author ethanlee
+ * @author mjolnirlee
  */
 public interface ConfigListener {
 

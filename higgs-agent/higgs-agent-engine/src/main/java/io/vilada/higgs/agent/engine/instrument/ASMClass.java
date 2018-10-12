@@ -38,7 +38,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMClass implements InstrumentClass {
 

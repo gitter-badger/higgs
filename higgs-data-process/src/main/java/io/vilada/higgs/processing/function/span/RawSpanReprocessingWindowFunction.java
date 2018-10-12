@@ -33,7 +33,7 @@ import static io.vilada.higgs.data.common.constant.ESIndexConstants.REFINEDSPAN_
 import static io.vilada.higgs.data.common.constant.ESIndexConstants.TEMP_REFINEDSPAN_SEARCH_INDEX;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Slf4j
 public class RawSpanReprocessingWindowFunction implements WindowFunction<ReprocessingTrace,

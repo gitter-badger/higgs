@@ -29,7 +29,7 @@ import io.vilada.higgs.agent.engine.instrument.objectfactory.AutoBindingObjectFa
 import io.vilada.higgs.agent.engine.instrument.objectfactory.InterceptorArgumentProvider;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AnnotatedInterceptorFactory implements InterceptorFactory {
     private final ProfilerConfig profilerConfig;

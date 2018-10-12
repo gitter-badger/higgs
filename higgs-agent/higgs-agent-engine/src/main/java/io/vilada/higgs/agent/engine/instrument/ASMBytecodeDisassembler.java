@@ -28,7 +28,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMBytecodeDisassembler {
 

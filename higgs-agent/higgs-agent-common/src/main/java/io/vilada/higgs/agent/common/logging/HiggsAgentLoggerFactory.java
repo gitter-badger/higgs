@@ -23,7 +23,7 @@ import io.vilada.higgs.common.util.logger.StdoutCommonLoggerFactory;
  * Obtain logger from agent env,
  * Log info store at agent log dir
  *
- * @author ethan
+ * @author mjolnir
  */
 public final class HiggsAgentLoggerFactory {
 

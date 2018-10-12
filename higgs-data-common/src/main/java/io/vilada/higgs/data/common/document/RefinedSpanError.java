@@ -23,7 +23,7 @@ import lombok.Setter;
 import java.io.Serializable;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Getter
 @Setter

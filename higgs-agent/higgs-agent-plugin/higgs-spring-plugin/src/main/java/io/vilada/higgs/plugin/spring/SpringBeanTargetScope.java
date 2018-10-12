@@ -17,7 +17,7 @@
 package io.vilada.higgs.plugin.spring;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public enum SpringBeanTargetScope {
     COMPONENT_SCAN, POST_PROCESSOR;

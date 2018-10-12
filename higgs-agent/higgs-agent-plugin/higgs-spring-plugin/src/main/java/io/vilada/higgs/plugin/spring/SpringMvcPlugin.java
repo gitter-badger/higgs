@@ -27,7 +27,7 @@ import io.vilada.higgs.plugin.spring.interceptor.SpringMVCHandlerMethodInvokerIn
 import io.vilada.higgs.plugin.spring.interceptor.SpringMVCInvocableHandlerMethodInterceptor;
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public class SpringMvcPlugin implements ProfilerPlugin {

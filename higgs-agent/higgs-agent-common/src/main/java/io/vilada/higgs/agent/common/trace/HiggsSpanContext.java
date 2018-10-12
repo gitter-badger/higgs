@@ -20,7 +20,7 @@ import io.opentracing.SpanContext;
 import io.opentracing.propagation.TextMap;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public interface HiggsSpanContext extends SpanContext {
 

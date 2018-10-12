@@ -28,7 +28,7 @@ import java.security.CodeSource;
 import java.security.ProtectionDomain;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class AgentLoaderTest {
 

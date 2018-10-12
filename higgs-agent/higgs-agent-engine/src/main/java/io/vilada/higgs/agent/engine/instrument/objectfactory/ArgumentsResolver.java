@@ -20,7 +20,7 @@ import java.lang.annotation.Annotation;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ArgumentsResolver {
 

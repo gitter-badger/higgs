@@ -25,7 +25,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class ASMTryCatch {
     private final MethodNode methodNode;

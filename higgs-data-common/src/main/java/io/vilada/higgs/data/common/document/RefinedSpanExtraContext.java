@@ -25,7 +25,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 @Setter
 @Getter

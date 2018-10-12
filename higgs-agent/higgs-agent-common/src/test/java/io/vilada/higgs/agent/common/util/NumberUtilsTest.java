@@ -22,7 +22,7 @@ import org.junit.Test;
 import java.util.Random;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class NumberUtilsTest {
 	private String notNumber = "H3110 W0r1d";

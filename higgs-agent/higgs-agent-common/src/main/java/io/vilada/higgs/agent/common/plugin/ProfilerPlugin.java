@@ -25,7 +25,7 @@ import io.vilada.higgs.agent.common.instrument.transformer.TransformTemplate;
  *
  * all classes implements this interface will be load automatic by agent.
  *
- * @author ethan
+ * @author mjolnir
  *
  */
 public interface ProfilerPlugin {

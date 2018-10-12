@@ -22,7 +22,7 @@ import io.vilada.higgs.agent.common.interceptor.Interceptor;
 import java.lang.reflect.Method;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public class DefaultInterceptorDefinition implements InterceptorDefinition {
     private final Class<? extends Interceptor> baseInterceptorClazz;

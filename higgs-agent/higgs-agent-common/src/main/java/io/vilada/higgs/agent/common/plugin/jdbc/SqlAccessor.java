@@ -18,7 +18,7 @@ package io.vilada.higgs.agent.common.plugin.jdbc;
 
 
 /**
- * @author ethan
+ * @author mjolnir
  *
  */
 public interface SqlAccessor {

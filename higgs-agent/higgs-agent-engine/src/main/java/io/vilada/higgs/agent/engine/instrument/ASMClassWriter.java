@@ -28,7 +28,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author ethan
+ * @author mjolnir
  */
 public final class ASMClassWriter extends ClassWriter {
     private static final Logger log = LoggerFactory.getLogger(ASMClassWriter.class);
