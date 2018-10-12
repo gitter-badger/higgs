@@ -1,0 +1,49 @@
+{
+  "template": "transaction-aggr-*",
+  "settings" : {
+    "number_of_shards" : 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "oneMinute": {
+      "properties": {
+        "epm": {
+          "type": "long"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "root": {
+          "type": "boolean"
+        },
+        "rpm": {
+          "type": "long"
+        },
+        "transactionCategoryId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "timeStamp": {
+          "type": "date",
+          "format": "epoch_millis"
+        },
+        "transactionName": {
+          "type": "string",
+          "index": "not_analyzed",
+          "ignore_above": 5000
+        }
+      }
+    }
+  },
+  "aliases": {
+    "transaction-aggr-search": {},
+    "transaction-aggr-current": {}
+  }
+}

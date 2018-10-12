@@ -1,0 +1,83 @@
+{
+  "name": "tomcat plugin transformer bundle",
+  "transformers": [{
+    "targets": [{"className":"org.apache.catalina.connector.Request"}],
+    "fields": ["io.vilada.higgs.agent.common.trace.ActiveSpanAccessor", "io.vilada.higgs.agent.common.trace.AsyncAccessor"],
+    "interceptors": [{
+      "methods": [{
+        "name": "recycle",
+        "descriptor": "()V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.RequestRecycleInterceptor"
+      }
+    }, {
+      "methods": [{
+        "name": "startAsync",
+        "descriptor": "(Ljavax/servlet/ServletRquest;Ljavax/servlet/ServletResponse;)Ljavax/servlet/AsyncContext;"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.RequestStartAsyncInterceptor"
+      }
+    }]
+  }, {
+    "targets":[{"className": "org.apache.catalina.core.StandardHostValve"}],
+    "interceptors": [{
+      "methods": [{
+        "name": "invoke",
+        "descriptor": "(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.StandardHostValveInvokeInterceptor"
+      }
+    }]
+  }, {
+    "targets":[{"className": "org.apache.catalina.connector.Connector"}],
+    "interceptors": [{
+      "methods": [{
+        "name": "initialize",
+        "descriptor": "()V"
+      }, {
+        "name": "initInternal",
+        "descriptor": "()V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.ConnectorInitializeInterceptor"
+      }
+    }]
+  }, {
+    "targets":[{"className": "org.apache.catalina.core.AsyncContextImpl"}],
+    "fields": ["io.vilada.higgs.agent.common.trace.HiggsContinuationAccessor"],
+    "interceptors": [{
+      "methods": [{
+        "name": "dispatch",
+        "descriptor": "(Ljavax/servlet/ServletContext;Ljava/lang/String;)V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.ContextDispatchContinuationInterceptor"
+      }
+    }]
+  }, {
+    "targets":[{"className": "org.apache.catalina.core.StandardServer"}],
+    "interceptors": [{
+      "methods": [{
+        "name": "stopInternal",
+        "descriptor": "()V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.StopServerInterceptor"
+      }
+    }]
+  }, {
+    "targets":[{"className": "org.apache.catalina.startup.Catalina"}],
+    "interceptors": [{
+      "methods": [{
+        "name": "stopServer",
+        "descriptor": "([Ljava/lang/String;)V"
+      }],
+      "interceptor": {
+        "className": "io.vilada.higgs.plugin.tomcat.interceptor.StopServerInterceptor"
+      }
+    }]
+  }]
+}

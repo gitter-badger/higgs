@@ -1,0 +1,119 @@
+{
+  "template": "web-agent-*",
+  "settings" : {
+    "number_of_shards" : 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "web-ajax-log": {
+      "properties": {
+        "traceId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "agentId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "instanceId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "tierId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "urlDomain": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "appId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "browser": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "loadedTime": {
+          "type": "long"
+        },
+        "id": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "urlQuery": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "reportTime": {
+          "type": "long"
+        }
+      }
+    },
+    "web-load-log": {
+      "properties": {
+        "urlDomain": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "appId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "instanceId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "tierId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "traceId": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "browser": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "id": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "urlQuery": {
+          "index": "not_analyzed",
+          "type": "string"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "firstScreenTime": {
+          "type": "long"
+        },
+        "whiteScreenTime": {
+          "type": "long"
+        },
+        "operableTime": {
+          "type": "long"
+        },
+        "resourceLoadedTime": {
+          "type": "long"
+        },
+        "loadedTime": {
+          "type": "long"
+        }
+      }
+    }
+  },
+  "aliases": {
+    "web-agent-search": {},
+    "web-agent-current": {}
+  }
+}

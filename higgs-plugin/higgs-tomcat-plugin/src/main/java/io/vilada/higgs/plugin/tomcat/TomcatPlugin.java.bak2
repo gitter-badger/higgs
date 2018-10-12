@@ -1,0 +1,7 @@
+package io.vilada.higgs.plugin.tomcat;
+
+
+import DefaultProfilerPlugin;
+
+public class TomcatPlugin extends DefaultProfilerPlugin {
+}

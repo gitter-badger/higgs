@@ -1,0 +1,61 @@
+/*
+ * Copyright 2018 The Higgs Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package io.vilada.higgs.agent.common.instrument;
+
+import io.vilada.higgs.agent.common.instrument.transformer.TransformCallback;
+
+import java.util.List;
+
+/**
+ * @author ethan
+ */
+public interface Instrumenter {
+
+    void weave(String adviceClassName);
+
+    void addField(String accessorTypeName);
+
+    void addGetter(String getterTypeName, String fieldName);
+
+    void setMethodModifier(int access, String methodName, String... parameterTypes);
+
+    void instrumentConstructor(String interceptorClassName, String... parameterTypes);
+
+    void instrumentConstructor(String interceptorClassName, Object[] interceptorConstructArgs, String... parameterTypes);
+
+    void instrumentConstructor(String interceptorClassName, String constructDesc);
+
+    void instrumentConstructor(String interceptorClassName, Object[] interceptorConstructArgs, String constructDesc);
+
+    void instrumentMethod(String interceptorClassName, String methodName, String... parameterTypes);
+
+    void instrumentMethod(String interceptorClassName, Object[] constructorArgs,
+                          String methodName, String... parameterTypes);
+
+    void instrumentMethod(String interceptorClassName, String methodName, String methodDesc);
+
+    void instrumentMethod(String interceptorClassName, Object[] constructorArgs, String methodName, String methodDesc);
+
+    void transform(String targetClassName, TransformCallback transformCallback);
+
+    void retransform(Class<?> target, TransformCallback transformCallback);
+
+    InstrumentClass getInstrumentClass();
+
+    List<InstrumentMethod> getDeclaredMethods(MethodFilter filter);
+
+}

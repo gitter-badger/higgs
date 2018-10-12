@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2018 The Higgs Authors
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <context:annotation-config/>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath:higgs-job-config.properties"/>
+    </bean>
+
+    <util:properties id="jobConfigProperties" location="classpath:higgs-job-config.properties"/>
+
+    <context:component-scan base-package="io.vilada.higgs.processing.flink"/>
+
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="poolName" value="higgsFlinkJobHikariCP" />
+        <property name="minimumIdle" value="${higgs.datasource.minimumIdle}"/>
+        <property name="maximumPoolSize" value="${higgs.datasource.maximumPoolSize}"/>
+        <property name="connectionTestQuery" value="SELECT 1" />
+        <property name="dataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" />
+        <property name="dataSourceProperties">
+            <props>
+                <prop key="url">${higgs.datasource.url}</prop>
+                <prop key="user">${higgs.datasource.user}</prop>
+                <prop key="password">${higgs.datasource.password}</prop>
+                <prop key="cachePrepStmts">${higgs.datasource.cachePrepStmts}</prop>
+                <prop key="prepStmtCacheSize">${higgs.datasource.prepStmtCacheSize}</prop>
+                <prop key="prepStmtCacheSqlLimit">${higgs.datasource.prepStmtCacheSqlLimit}</prop>
+                <prop key="useServerPrepStmts">${higgs.datasource.useServerPrepStmts}</prop>
+                <prop key="useLocalSessionState">${higgs.datasource.useLocalSessionState}</prop>
+                <prop key="useLocalTransactionState">${higgs.datasource.useLocalTransactionState}</prop>
+                <prop key="rewriteBatchedStatements">${higgs.datasource.rewriteBatchedStatements}</prop>
+                <prop key="cacheResultSetMetadata">${higgs.datasource.cacheResultSetMetadata}</prop>
+                <prop key="cacheServerConfiguration">${higgs.datasource.cacheServerConfiguration}</prop>
+                <prop key="elideSetAutoCommits">${higgs.datasource.elideSetAutoCommits}</prop>
+                <prop key="maintainTimeStats">${higgs.datasource.maintainTimeStats}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <constructor-arg ref="hikariConfig" />
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg index="0" ref="dataSource"/>
+    </bean>
+
+</beans>

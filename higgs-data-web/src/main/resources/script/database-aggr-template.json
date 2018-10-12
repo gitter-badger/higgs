@@ -1,0 +1,77 @@
+{
+  "template": "database-aggr-*",
+  "settings" : {
+    "number_of_shards" : 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "oneMinute": {
+      "properties": {
+        "address": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "appId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "avgElapsed": {
+          "type": "long"
+        },
+        "caller": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "component": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "epm": {
+          "type": "long"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "maxElapsed": {
+          "type": "long"
+        },
+        "minElapsed": {
+          "type": "long"
+        },
+        "operationType": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "rpm": {
+          "type": "long"
+        },
+        "sumElapsed": {
+          "type": "long"
+        },
+        "tierId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "timeStamp": {
+          "type": "date",
+          "format": "epoch_millis"
+        }
+      }
+    }
+  },
+  "aliases": {
+    "database-aggr-search": {},
+    "database-aggr-current": {}
+  }
+}

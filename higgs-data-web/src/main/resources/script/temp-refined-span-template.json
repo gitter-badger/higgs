@@ -1,0 +1,314 @@
+{
+  "template": "temp-refined-span-*",
+  "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "refined-span": {
+      "properties": {
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "startTime": {
+          "type": "date",
+          "format": "epoch_millis"
+        },
+        "finishTime": {
+          "type": "date",
+          "format": "epoch_millis"
+        },
+        "operationName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "context": {
+          "properties": {
+            "traceId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "parentSpanId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "spanId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "spanReferer": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "index": {
+              "type": "integer"
+            },
+            "parentAgentToken": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "appId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "tierId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "instanceId": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        },
+        "extraContext": {
+          "properties": {
+            "agentTransactionName": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "spanTransactionName": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "type": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "layer": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "component": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "operationType": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "address": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "appRoot": {
+              "type": "boolean"
+            },
+            "tierRoot": {
+              "type": "boolean"
+            },
+            "instanceRoot": {
+              "type": "boolean"
+            },
+            "childAppId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "childTierId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "childInstanceId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "parentAppId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "parentTierId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "parentInstanceId": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "spanRefererList": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "elapsed": {
+              "type": "integer"
+            },
+            "selfElapsed": {
+              "type": "integer"
+            },
+            "instanceInternalElapsed": {
+              "type": "integer"
+            },
+            "instanceInternalIgnoreRemoteCallElapsed": {
+              "type": "integer"
+            },
+            "traceError": {
+              "type": "boolean"
+            },
+            "transformed": {
+              "type": "boolean"
+            }
+          }
+        },
+        "spanError": {
+          "properties": {
+            "message": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "name": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "stack": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "timestamp": {
+              "type": "date",
+              "format": "epoch_millis"
+            },
+            "type": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        },
+        "spanLogs": {
+          "properties": {
+            "fields": {
+              "properties": {
+                "error_kind": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "error_object": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "event": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "message": {
+                  "type": "string",
+                  "index": "not_analyzed",
+                  "ignore_above": 5000
+                },
+                "stack": {
+                  "type": "string",
+                  "index": "not_analyzed",
+                  "ignore_above": 5000
+                }
+              }
+            },
+            "timestamp": {
+              "type": "date",
+              "format": "epoch_millis"
+            }
+          }
+        },
+        "spanTags": {
+          "properties": {
+            "component": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "component_destination": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "component_target": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "db_instance": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "db_param": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "db_statement": {
+              "type": "string",
+              "index": "not_analyzed",
+              "ignore_above": 5000
+            },
+            "http_client_ip": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_host": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_method": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_param": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_port": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_referer": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_status_code": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_url": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_user_agent": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "http_x_forwarded_for": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "peer_address": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "peer_hostname": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "peer_port": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "peer_service": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        }
+
+      }
+    }
+  },
+  "aliases": {
+    "temp-refined-span-current": {},
+    "temp-refined-span-search": {}
+  }
+}

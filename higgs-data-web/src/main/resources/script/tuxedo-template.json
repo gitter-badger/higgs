@@ -1,0 +1,227 @@
+{
+  "template": "tmadmin-*",
+  "settings" : {
+    "number_of_shards" : 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "bbs": {
+      "properties": {
+        "groupCt": {
+          "type": "long"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "interfaceCt": {
+          "type": "long"
+        },
+        "queueCt": {
+          "type": "long"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "serverCt": {
+          "type": "long"
+        },
+        "serviceCt": {
+          "type": "long"
+        }
+      }
+    },
+    "psc": {
+      "properties": {
+        "callCt": {
+          "type": "long"
+        },
+        "callCtTotal": {
+          "type": "long"
+        },
+        "groupName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "machineId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "progName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "routeName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "serverId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "serviceName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "serviceStatus": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    },
+    "pq": {
+      "properties": {
+        "avgLength": {
+          "type": "long"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "machineId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "progName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "queueName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "queuedCt": {
+          "type": "long"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "serverCt": {
+          "type": "long"
+        },
+        "wkCt": {
+          "type": "long"
+        }
+      }
+    },
+    "psr": {
+      "properties": {
+        "groupName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "loadDone": {
+          "type": "long"
+        },
+        "loadDoneSumTotal": {
+          "type": "long"
+        },
+        "progName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "queueName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "requestDone": {
+          "type": "long"
+        },
+        "requestDoneTotal": {
+          "type": "long"
+        },
+        "serverId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "serverStatus": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    },
+    "pclt": {
+      "properties": {
+        "abort": {
+          "type": "long"
+        },
+        "begin": {
+          "type": "long"
+        },
+        "clientName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "completed": {
+          "type": "long"
+        },
+        "id": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "linkTime": {
+          "type": "long"
+        },
+        "lmId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "reportTime": {
+          "type": "long"
+        },
+        "status": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "userName": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    }
+  },
+  "aliases": {
+    "tmadmin-search": {},
+    "tmadmin-current": {}
+  }
+}

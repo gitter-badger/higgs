@@ -1,0 +1,59 @@
+validators: {
+"higgs.agent.collector.host": {
+required: true,
+missingMessage: "请输入主机地址"
+},
+"higgs.agent.collector.port": {
+required: true,
+missingMessage: "请输入端口号",
+invalidMessage: "请输入正确的端口号，只能为1~65535之间的整数",
+validType: {
+min: 0,
+max: 65535
+}
+},
+"higgs.sampling.rate": {
+required: true,
+missingMessage: "请输入采样率",
+invalidMessage: "请输入正确的采样率，最小为0, 最大为1000",
+validType: {
+min: 0,
+max: 1000
+}
+},
+"higgs.healthcheck.period": {
+required: true,
+missingMessage: "请输入心跳周期",
+invalidMessage: "请输入正确的心跳周期，仅允许正整数",
+validType: "positiveInteger"
+},
+"higgs.apdext.time": {
+required: true,
+missingMessage: "请输入Apdext",
+invalidMessage: "请输入正确的Apdext，仅允许正整数",
+validType: "positiveInteger"
+},
+"higgs.metrics.collect.period": {
+required: true,
+missingMessage: "请输入JVM采样周期",
+invalidMessage: "请输入正确的JVM采样周期，仅允许正整数",
+validType: "positiveInteger"
+},
+"higgs.thread.dump.period": {
+required: true,
+missingMessage: "请输入线程采样周期",
+invalidMessage: "请输入正确的线程采样周期，仅允许正整数",
+validType: "positiveInteger"
+},
+"higgs.browser.showlog": {},
+"higgs.browser.openTraceEnabled": {},
+"higgs.browser.transFrequency": {
+required: true,
+missingMessage: "请输入线程采样周期",
+invalidMessage: "请输入正确的线程采样周期，仅允许正整数",
+validType: "positiveInteger"
+},
+"higgs.trace.destination.ignore": {},
+"higgs.data.send.batch.size": {},
+"higgs.http.excludeurl": {}
+}

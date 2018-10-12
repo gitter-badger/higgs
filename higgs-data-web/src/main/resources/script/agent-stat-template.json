@@ -1,0 +1,208 @@
+{
+  "template": "agent-stat-*",
+  "settings" : {
+    "number_of_shards" : 5,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression"
+  },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      }
+    },
+    "stat": {
+      "properties": {
+        "activeThreadCount": {
+          "type": "long"
+        },
+        "appId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "areaMap": {
+          "properties": {
+            "CODECACHE_committed": {
+              "type": "long"
+            },
+            "CODECACHE_max": {
+              "type": "long"
+            },
+            "CODECACHE_used": {
+              "type": "long"
+            },
+            "EDEN_committed": {
+              "type": "long"
+            },
+            "EDEN_max": {
+              "type": "long"
+            },
+            "EDEN_used": {
+              "type": "long"
+            },
+            "METASPACE_committed": {
+              "type": "long"
+            },
+            "METASPACE_max": {
+              "type": "long"
+            },
+            "METASPACE_used": {
+              "type": "long"
+            },
+            "OLD_committed": {
+              "type": "long"
+            },
+            "OLD_max": {
+              "type": "long"
+            },
+            "OLD_used": {
+              "type": "long"
+            },
+            "PERM_committed": {
+              "type": "long"
+            },
+            "PERM_max": {
+              "type": "long"
+            },
+            "PERM_used": {
+              "type": "long"
+            },
+            "SURVIVOR_committed": {
+              "type": "long"
+            },
+            "SURVIVOR_max": {
+              "type": "long"
+            },
+            "SURVIVOR_used": {
+              "type": "long"
+            }
+          }
+        },
+        "collectInterval": {
+          "type": "long"
+        },
+        "gc": {
+          "properties": {
+            "area": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "collector": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "gcCount": {
+              "type": "long"
+            },
+            "gcTime": {
+              "type": "long"
+            },
+            "type": {
+              "type": "string",
+              "index": "not_analyzed"
+            }
+          }
+        },
+        "idleThreadCount": {
+          "type": "long"
+        },
+        "instanceId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "jvmGcMap": {
+          "properties": {
+            "NEW_gccollector": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "NEW_gccount": {
+              "type": "long"
+            },
+            "NEW_gctime": {
+              "type": "long"
+            },
+            "OLD_gccollector": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "OLD_gccount": {
+              "type": "long"
+            },
+            "OLD_gctime": {
+              "type": "long"
+            }
+          }
+        },
+        "loadedClassCount": {
+          "type": "long"
+        },
+        "memory": {
+          "properties": {
+            "heapCommitted": {
+              "type": "long"
+            },
+            "heapMax": {
+              "type": "long"
+            },
+            "heapUsed": {
+              "type": "long"
+            },
+            "jvmMemoryDetail": {
+              "properties": {
+                "area": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "committed": {
+                  "type": "long"
+                },
+                "manager": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "max": {
+                  "type": "long"
+                },
+                "areaType": {
+                  "type": "string",
+                  "index": "not_analyzed"
+                },
+                "used": {
+                  "type": "long"
+                }
+              }
+            },
+            "nonHeapCommitted": {
+              "type": "long"
+            },
+            "nonHeapMax": {
+              "type": "long"
+            },
+            "nonHeapUsed": {
+              "type": "long"
+            }
+          }
+        },
+        "tierId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "timestamp": {
+          "type": "date",
+          "format": "epoch_millis"
+        },
+        "totalThreadCount": {
+          "type": "long"
+        },
+        "unloadedClassCount": {
+          "type": "long"
+        }
+      }
+    }
+  },
+  "aliases": {
+    "agent-stat-search": {},
+    "agent-stat-current": {}
+  }
+}
